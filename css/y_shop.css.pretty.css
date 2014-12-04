@@ -1,0 +1,502 @@
+.shop-bg{
+	background:url("http://www.yiwaimai.com/Content/Images/Shop.png") no-repeat 0 0;
+}
+.shop-header{
+	margin-top:-2px;
+	border-top:2px solid #349DD6;
+	border-bottom:2px solid #349DD6;
+	background:#1171AC url("http://www.yiwaimai.com/Content/Images/banner2-bg.png") no-repeat right bottom;
+}
+.shop-header .layout{
+	background:url("http://www.yiwaimai.com/Content/Images/banner-light-bg.png") no-repeat center bottom;
+}
+.shop-header .band-logo{
+	margin:11px 0 16px;
+	padding:12px;
+}
+.shop-header .band-logo img{
+	visibility:visible;
+	width:168px;
+	height:120px;
+	border:3px solid #FFF;
+	display:block;
+}
+.shop-header .info-search{
+	margin:20px 0 0 18px;
+	*margin-top:18px;
+	width:764px;
+}
+.shop-header .info-search h2{
+	margin:0;
+	font:bold 22px 微软雅黑;
+	color:#FFF;
+}
+.shop-header .info-search .open{
+	margin:2px 0 0 4px;
+	width:61px;
+	height:26px;
+	background-position:-439px 0;
+}
+.shop-header .info-search .close{
+	margin:2px 0 0 4px;
+	width:61px;
+	height:26px;
+	background-position:-439px -26px;
+}
+.shop-header .info-search .locked{
+	margin:2px 0 0 4px;
+	width:72px;
+	height:26px;
+	background-position:-425px -54px;
+}
+.shop-header .info-search .star-level{
+	margin:6px 0 0 18px;
+}
+.shop-header .distance{
+	margin-top:16px;
+	height:14px;
+}
+.shop-header .distance .cell{
+	margin-right:12px;
+	padding-left:18px;
+	font:12px/14px Tahoma;
+	color:#FFF;
+}
+.shop-header .distance .cell em{
+	font-weight:bold;
+	color:#F90;
+}
+.shop-header .search-share{
+	margin-top:16px;
+	padding-top:19px;
+	background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAACCAYAAACQahZdAAAAG0lEQVQI12MoXnbsPwhLl63/L1i4BowZsAkCAApbGKvGLW0IAAAAAElFTkSuQmCC) repeat-x left top;
+	_background-image:url("http://www.yiwaimai.com/Content/Images/shop-banner-dashed.png");
+}
+.shop-header .search-share label{
+	padding-left:26px;
+	height:29px;
+	font:14px/29px Tahoma;
+	color:#FFF;
+	background-position:-482px -401px;
+}
+.shop-header .search-share #productName{
+	margin-left:5px;
+	padding:7px 5px 6px;
+	border:1px solid #5C5C5C;
+	width:188px;
+	height:14px;
+}
+.shop-header .search-share #btnSearch{
+	margin-left:-1px;
+	padding:8px 0 7px\9;
+	width:60px;
+	height:29px;
+	background-position:-370px 0;
+	font-size:14px;
+	color:#000;
+	_vertical-align:middle;
+}
+.shop-header .search-share .link{
+	margin-right:16px;
+	padding-left:19px;
+	height:29px;
+}
+#ckepop{
+	margin-top:6px;
+	margin-top:5px\9;
+	_margin-top:6px;
+	width:120px;
+	overflow:hidden;
+}
+#ckepop a{
+	float:left;
+}
+.shop-nav{
+	padding-top:5px;
+	height:30px;
+	border-bottom:1px solid #D3E2EB;
+	background-color:#FAFAFA;
+}
+.shop-nav a{
+	margin:8px 0;
+	font:12px/14px Tahoma;
+	color:#666;
+	width:89px;
+	text-align:center;
+	border-right:1px solid #666;
+}
+.shop-nav a.selected{
+	margin:1px 0 0 0;
+	padding:8px 0;
+	width:90px;
+	background-position:-270px 0;
+	color:#333;
+	border-right:none;
+	_position:relative;
+	_margin-bottom:-1px;
+}
+.dish-list{
+	width:692px;
+	margin-right:8px;
+}
+.category{
+	margin-top:38px;
+}
+.category h1{
+	margin:0;
+	font:18px/22px 黑体;
+	color:#333;
+}
+.category ul{
+	margin-top:8px;
+}
+.category li{
+	margin:2px 14px 0 0;
+	padding-right:10px;
+	width:310px;
+	height:34px;
+	background-position:0 -220px;
+	text-align:left;
+}
+.category li.hover{
+	background:url("http://www.yiwaimai.com/Content/Images/Shop.png") no-repeat 0 -480px;
+}
+.category li h3{
+	margin:0;
+	padding:8px 0 8px 10px;
+	width:242px;
+	font:normal 14px/18px 宋体;
+	float:left;
+	overflow:hidden;
+	white-space:nowrap;
+	-o-text-overflow:ellipsis;
+	text-overflow:ellipsis;
+	cursor:pointer;
+}
+.category li span{
+	margin:8px 0;
+	font:normal 14px/18px Tahoma;
+	float:right;
+}
+.latest h1{
+	color:#F60;
+}
+.latest li{
+	background-position:0 -180px;
+}
+.floatTip{
+	background-color:#F00;
+	font:bold 14px/18px Tahoma;
+	color:#FFF;
+	margin:0;
+	padding:4px 5px;
+	position:absolute;
+	top:100px;
+	left:200px;
+}
+#TB_ajaxContent .category li{
+	margin:2px 7px 0 7px;
+}
+.shop-cart{
+	margin:auto;
+	width:280px;
+	background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARgAAAABCAYAAAAFILFrAAAAP0lEQVQ4y2M4c+bM/58/f+LFP378IKiGFPzr1y+8dsEwsnpCmJB5pLqDkDpi3YDLL4TcNhr+o+E/1MMfVLYAAFKiR3bKL/UJAAAAAElFTkSuQmCC) repeat-y 0 0;
+	_background-image:url("http://www.yiwaimai.com/Content/Images/shop-cart-bg.png");
+}
+.shop-cart h2{
+	margin:0;
+	height:42px;
+	background-position:0 -270px;
+}
+.shop-cart .bx-wrapper{
+	margin:0 auto;
+	background:#fff;
+}
+.shop-cart .bx-window{
+	margin:0;
+	padding-bottom:10px;
+}
+.shop-cart .bx-prev{
+	position:absolute;
+	width:43px;
+	height:10px;
+	display:block;
+	background:url("http://www.yiwaimai.com/content/images/cart_scoll.gif") no-repeat 0 -10px;
+	left:105px;
+	top:-4px;
+}
+.shop-cart .bx-next{
+	position:absolute;
+	width:43px;
+	height:10px;
+	display:block;
+	background:url("http://www.yiwaimai.com/content/images/cart_scoll.gif") no-repeat;
+	left:105px;
+	margin-top:-10px;
+}
+.shop-cart .dish-wrap{
+	margin:0 auto;
+	width:256px;
+	min-height:240px;
+	_height:240px;
+	background-color:#FFF;
+	padding-bottom:10px;
+}
+.shop-cart .dish-wrap .page{
+	text-align:left;
+	float:none;
+	margin-top:inherit;
+	font:12px/15px 宋体;
+	letter-spacing:inherit;
+	word-spacing:inherit;
+}
+.shop-cart .dish-wrap .item{
+	padding-top:10px;
+	height:20px;
+}
+.shop-cart .dish-wrap .radio-checkbox{
+	margin:0 3px 0 12px;
+}
+.shop-cart .dish-wrap label{
+	margin-bottom:-4px;
+	margin-bottom:0\0;
+	font:12px/14px 宋体;
+	color:#333;
+	display:inline-block;
+	width:150px;
+	overflow:hidden;
+	white-space:nowrap;
+	-o-text-overflow:ellipsis;
+	text-overflow:ellipsis;
+}
+.shop-cart .dish-wrap .sub,.shop-cart .dish-wrap .add{
+	width:20px;
+	height:20px;
+	text-align:center;
+	border:1px solid #7F9DB9;
+	vertical-align:middle;
+}
+.shop-cart .dish-wrap .sub{
+	margin-right:4px;
+}
+.shop-cart .dish-wrap .text{
+	margin-right:4px;
+	width:18px;
+	height:18px;
+	text-align:center;
+	border:1px solid #7F9DB9;
+	vertical-align:bottom;
+	_vertical-align:middle;
+}
+.shop-cart .dish-wrap .dish-empty{
+	text-align:center;
+	font:12px/220px Arial;
+	color:#CCC;
+}
+.shop-cart .cart-split{
+	height:4px;
+	background-position:0 -320px;
+	font-size:0;
+}
+.shop-cart h3{
+	margin:11px 0 0 0;
+	text-align:center;
+	font:16px 黑体;
+	color:#F60;
+}
+.shop-cart p{
+	margin:5px 15px 0;
+	text-align:center;
+	font:12px Tahoma;
+	color:#999;
+}
+.shop-cart p span{
+	white-space:nowrap;
+}
+.shop-cart #btnSubmit{
+	margin:13px auto;
+	width:168px;
+	height:47px;
+	background-position:0 -340px;
+	display:block;
+}
+.shop-cart .cart-bottom-line{
+	height:8px;
+	background-position:0 -330px;
+	font-size:0;
+}
+.shop-split-shdow{
+	width:13px;
+	margin-top:29px;
+}
+.shop-split-shdow .up{
+	height:200px;
+	background-image:url("http://www.yiwaimai.com/Content/Images/shop-split-shdow1.png");
+}
+.shop-split-shdow .middle{
+	height:36px;
+	background:url("http://www.yiwaimai.com/Content/Images/shop-split-shdow2.png") repeat-y 0 0;
+}
+.shop-split-shdow .down{
+	height:200px;
+	background-image:url("http://www.yiwaimai.com/Content/Images/shop-split-shdow3.png");
+}
+
+.popular-dish{
+	margin-top:29px;
+	padding-left:26px;
+	width:310px;
+}
+.popular-dish h2{
+	margin:0;
+	font:18px 黑体;
+	color:#454545;
+}
+.popular-dish ul{
+	margin-top:11px;
+}
+.popular-dish li{
+	margin:2px 0;
+	padding:9px 10px 8px;
+	width:290px;
+	height:18px;
+	background-position:0 -400px;
+}
+.popular-dish li.hover{
+	background:url("http://www.yiwaimai.com/Content/Images/Shop.png") no-repeat 0 -480px;
+}
+.popular-dish li a{
+	color:#333;
+}
+.popular-dish li h3{
+	margin:0;
+	width:232px;
+	font:normal 14px/18px 宋体;
+	float:left;
+	overflow:hidden;
+	white-space:nowrap;
+	-o-text-overflow:ellipsis;
+	text-overflow:ellipsis;
+}
+.popular-dish li span{
+	font:normal 14px/18px Tahoma;
+	float:right;
+}
+.intro{
+	margin:29px 0;
+	padding-right:31px;
+	width:600px;
+}
+.intro #mapContainer{
+	width:585px;
+	height:236px;
+	background-color:#EEE;
+	border:1px solid #666;
+}
+.intro .item{
+	margin-top:30px;
+}
+.intro .item h2{
+	margin:0;
+	padding-left:13px;
+	font:18px 黑体;
+	color:#454545;
+	background:url("http://www.yiwaimai.com/Content/Images/Shop.png") no-repeat -494px -226px;
+}
+.intro .item p{
+	margin:5px 0 0 13px;
+	font:14px/180% Tahoma;
+	color:#666;
+}
+.product-search-wrap{
+	padding-top:16px;
+}
+.product-search-wrap .search-form #txtKeyword{
+	margin-left:0;
+	border:1px solid #5B5B5B;
+	height:27px;
+	width:188px;
+}
+.product-search-wrap .dish-empty{
+	text-align:center;
+	color:#666;
+	margin-top:100px;
+	font-size:18px;
+	font-family:宋体;
+}
+.bx-wrapper{
+	text-align:right;
+}
+.bx-window{
+	margin-bottom:15px;
+}
+.bx-prev,.bx-next{
+	color:#06C;
+	text-align:right;
+	margin-right:15px;
+}
+#btnResearch{
+	margin-left:-2px;
+	width:80px;
+	height:29px;
+	background-position:-270px -35px;
+	font:14px Tahoma;
+	color:#000;
+}
+.add-to-collection-tip{
+	font:12px/16px Tahoam;
+	color:#000;
+	position:absolute;
+	z-index:101;
+}
+.add-to-collection-tip a{
+	margin-left:12px;
+	color:#06C;
+}
+.shop-header .layout,.shop-header .band-logo,.star-level,.shop-header{
+	_behavior:url("http://www.yiwaimai.com/Content/Images/iepngfix/iepngfix.htc");
+}
+*,html{
+	_background-image:url(about:blank);
+	_background-attachment:fixed;
+}
+.fixed-top{
+	position:fixed;
+	bottom:auto;
+	top:0;
+}
+.fixed-bottom{
+	position:fixed;
+	bottom:0;
+	top:auto;
+}
+.fixed-left{
+	position:fixed;
+	right:auto;
+	left:0;
+}
+.fixed-right{
+	position:fixed;
+	right:0;
+	left:auto;
+}
+* html .fixed-top{
+	position:absolute;
+	bottom:auto;
+	top:expression(eval(document.documentElement.scrollTop));
+}
+* html .fixed-right{
+	position:absolute;
+	right:auto;
+	left:expression(eval(document.documentElement.scrollLeft+document.documentElement.clientWidth-this.offsetWidth)-(parseInt(this.currentStyle.marginLeft,10)||0)-(parseInt(this.currentStyle.marginRight,10)||0));
+}
+* html .fixed-bottom{
+	position:absolute;
+	bottom:auto;
+	top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0)));
+}
+* html .fixed-left{
+	position:absolute;
+	right:auto;
+	left:expression(eval(document.documentElement.scrollLeft));
+}

@@ -1,0 +1,2748 @@
+ul.form_errors li{
+	color:#D01E5E;
+	clear:left;
+padding:0}
+.formError{
+	font-weight:normal;
+font-size:12px}
+.error_notification{
+	background:#ffb6b6;
+	padding:5px 10px;
+	color:#cc1d1d;
+font-size:1.2em}
+strong.error{
+color:#ff5050}
+.has_errors input,.has_errors textarea{
+	background:#FEF2F2;
+border:1px solid #d01e5e}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{
+	margin:0;
+padding:0}
+table{
+	border-spacing:0;
+border-collapse:collapse}
+fieldset,img{
+border:0}
+address,caption,cite,code,dfn,em,strong,th,var{
+	font-style:normal;
+font-weight:normal}
+ol,ul{
+list-style:none}
+caption,th{
+text-align:left}
+h1,h2,h3,h4,h5,h6{
+	font-size:100%;
+font-weight:normal}
+q:before,q:after{
+content:''}
+abbr,acronym{
+border:0}
+ul.alerts{
+	padding:0;
+z-index:0}
+ul.alerts li{
+	font-weight:bold;
+	height:auto;
+padding:0}
+ul.alerts li.success,ul.alerts li.info,ul.alerts li.error{
+	border:2px solid;
+	border-right:none;
+border-left:none}
+ul.alerts li.success div,ul.alerts li.info div,ul.alerts li.error div{
+	position:relative;
+	width:923px;
+	margin:0 auto;
+	padding:8px 0 10px 37px;
+	font-size:1.6em;
+font-weight:bold}
+ul.alerts li.success div span,ul.alerts li.info div span,ul.alerts li.error div span{
+color:#333333}
+ul.alerts li.success div span#close,ul.alerts li.info div span#close,ul.alerts li.error div span#close{
+	position:absolute;
+	top:5px;
+right:10px}
+ul.alerts li.success div span#close a,ul.alerts li.info div span#close a,ul.alerts li.error div span#close a{
+	float:left;
+	font-size:0.6em;
+	font-weight:normal;
+color:black}
+ul.alerts li.success div span#close a img,ul.alerts li.info div span#close a img,ul.alerts li.error div span#close a img{
+margin:1px 0 0 5px}
+ul.alerts li.success a:hover,ul.alerts li.info a:hover,ul.alerts li.error a:hover{
+text-decoration:underline}
+ul.alerts li.success{
+	background:#F4FCE9;
+border-color:#8eb316}
+ul.alerts li.success div{
+	color:#8eb316;
+background:url("http://www.groupon.com/images/groupon/icons/success.gif") no-repeat 5px 8px}
+ul.alerts li.info{
+	background:#FFFEDF;
+border-color:#faaf42}
+ul.alerts li.info div{
+	color:#333333;
+background:url("http://www.groupon.com/images/groupon/icons/info.gif") no-repeat 5px 8px}
+ul.alerts li.error{
+	background:#FFDCD7;
+border-color:#d01e5e}
+ul.alerts li.error div{
+	color:#d01e5e;
+background:url("http://www.groupon.com/images/groupon/icons/error.gif") no-repeat 10px 10px}
+ul.alerts li.error div form{
+display:inline}
+.caption{
+font-size:11px}
+body{
+font:62.5%/1.5 Arial, sans-serif}
+h1,h2{
+font:bold 2em Arial}
+#main h2.sample_offers a:hover{
+text-decoration:none}
+#header h2{
+font-size:30px}
+.page_header h1,.page_header h2{
+font-size:3em}
+h3{
+font:bold 1.8em Helvetica, Arial, sans-serif}
+h3.double_margin{
+margin-bottom:25px}
+h3.greenapple{
+color:#a2b957}
+h4{
+font-size:1.4em}
+h5{
+	font-size:2.2em;
+line-height:1.1em}
+.jobs h4,.business_faq h4{
+font-weight:bold}
+dd,dt{
+font-size:1.2em}
+#footer dt{
+font-size:1.5em}
+#content .page_content ul{
+	margin-bottom:20px;
+	list-style:disc;
+padding-left:25px}
+#content .page_content ul.no_bullets{
+	list-style:none;
+padding-left:0}
+#content .page_content ul.inline_links{
+	list-style:none;
+padding-left:0}
+#content .page_content blockquote ul{
+	padding-left:0;
+list-style:none}
+#content .page_content .write_up_rail ul{
+	list-style:none;
+padding-left:0}
+#content .page_content .write_up_rail .details ul{
+	list-style-type:disc;
+padding-left:20px}
+.sidebar_ad ul{
+	list-style:disc outside;
+padding-left:25px}
+li{
+font-size:1.2em}
+li p,li li,li dd,li dt{
+font-size:1em}
+li p{
+margin-bottom:5px}
+#gw-nav li{
+font-size:1em}
+#header ul.login li{
+font-size:1.2em}
+#header ul.login li li{
+font-size:1em}
+#header ul.login ul li.sign_out{
+font-size:.84em}
+p{
+font-size:1.2em}
+p small{
+font-size:.84em}
+p.double_margin{
+margin-bottom:25px}
+p.icon_gift{
+color:#666}
+p.download_icon{
+	width:465px;
+	padding-left:16px;
+	margin-left:auto;
+	margin-right:auto;
+background:url("http://www.groupon.com/images/groupon/icons/download.gif") no-repeat 0 3px}
+#header p{
+margin-bottom:0}
+ol{
+	list-style:decimal;
+margin-left:17px}
+small{
+	font-size:1em;
+color:#545454}
+th p{
+font-weight:bold}
+.normal{
+font-weight:normal}
+strong,.bold{
+	font-weight:bold;
+font-style:inherit}
+em{
+	font-style:italic;
+font-weight:inherit}
+.page_content ul li{
+font-size:1.2em}
+.strike_through{
+text-decoration:line-through}
+#announcement h1,#announcement h2,#announcement h3,#announcement h4,#announcement h5,#announcement h6,#missed_deal_announcement h1,#missed_deal_announcement h2,#missed_deal_announcement h3,#missed_deal_announcement h4,#missed_deal_announcement h5,#missed_deal_announcement h6{
+	font-size:1.4em;
+font-weight:bold}
+#announcement li,#missed_deal_announcement li{
+font-size:1.4em}
+#announcement strong,#missed_deal_announcement strong{
+font-weight:bold}
+#announcement em,#missed_deal_announcement em{
+font-style:italic}
+#announcement p,#missed_deal_announcement p{
+margin-bottom:0}
+#announcement#missed_deal_announcement .announcement_inner,#missed_deal_announcement#missed_deal_announcement .announcement_inner{
+font-weight:bold}
+#announcement#missed_deal_announcement .announcement_inner p,#missed_deal_announcement#missed_deal_announcement .announcement_inner p{
+	padding-top:2px;
+color:#383838}
+#rail p{
+margin-bottom:5px}
+#rail em{
+font-style:italic}
+#rail a:hover{
+text-decoration:underline}
+#rail h2,#rail h3,#rail h4,#rail h5{
+	font-family:Georgia, MS Serif;
+	padding-bottom:8px;
+	font-size:1.8em;
+font-weight:normal}
+#rail h2.past_deals{
+	color:#fff;
+	font-family:Helvetica, Arial, sans-serif;
+	font-weight:bold;
+	font-size:24px;
+	margin-bottom:0;
+	-khtml-text-shadow:#666 0 -1px 1px;
+	-moz-text-shadow:#666 0 -1px 1px;
+text-shadow:#666 0 -1px 1px}
+#rail h6{
+	font-family:Georgia, MS Serif;
+	padding-bottom:8px;
+	font-size:1.3em;
+font-weight:bold}
+#rail li h2,#rail li h3,#rail li h4,#rail li h5{
+font-size:1.5em}
+#rail dt{
+font-weight:bold}
+#rail dd{
+padding-bottom:10px}
+#rail ul,#rail ol{
+padding-left:0}
+#rail ul li.first,#rail ol li.first{
+margin-top:20px}
+#rail ul li ul,#rail ul li ol,#rail ol li ul,#rail ol li ol{
+	margin-left:0;
+padding-bottom:10px}
+#rail ul li ul li,#rail ul li ol li,#rail ol li ul li,#rail ol li ol li{
+	margin-left:20px;
+	font-size:1em;
+padding-bottom:0}
+#rail ul li ul a:hover,#rail ul li ol a:hover,#rail ol li ul a:hover,#rail ol li ol a:hover{
+text-decoration:underline}
+#rail ul li.side_deal h4,#rail ol li.side_deal h4{
+font-size:1.2em}
+#rail ul li h4,#rail ol li h4{
+	font-family:Helvetica, Arial, sans-serif;
+	font-size:1.8em;
+	font-weight:bold;
+line-height:1.2em}
+#rail .box .chromed_header h3{
+	padding:7px 0 0 0;
+	text-align:center;
+	font-family:Helvetica, Arial, sans-serif;
+	font-size:1.2em;
+font-weight:bold}
+#rail .box ol,#rail .box ul{
+margin:0}
+#rail .box ul.bullet{
+list-style:disc}
+#rail .box ul.bullet li{
+	font-size:1.2em;
+	width:auto;
+	float:none;
+	display:block;
+	background:url("http://www.groupon.com/images/groupon/icons/blue_dot.gif") no-repeat left center;
+	padding:0 0 0 12px;
+margin-bottom:5px}
+#rail .box ul.bullet li.no_bullet{
+	background:none;
+	list-style:none;
+padding-left:0}
+#rail .box ul.bullet li.no_bullet p{
+	font-size:1em;
+	background:none;
+	width:auto;
+padding:0}
+#rail .box .button.submit{
+margin-top:10px}
+#rail #area_deals .deal_details h4{
+font-size:1em}
+.icon_gift{
+	padding-left:18px;
+background:url("http://www.groupon.com/images/groupon/icons/icon_gift.gif") no-repeat}
+.icon_gift.for_friend{
+	background:url("http://www.groupon.com/images/groupon/icons/icon_gift_blue.gif") no-repeat left 2px;
+	padding-left:30px;
+	line-height:30px;
+display:inline-block}
+.for_a_friend{
+text-align:center}
+.for_a_friend a{
+	font-weight:bold;
+font-size:16px}
+.for_a_friend a:hover{
+text-decoration:none}
+legend{
+	font-size:20px;
+font-weight:bold}
+.small{
+	font-size:10px;
+font-weight:normal}
+h2#activity_title span{
+	float:none;
+	margin:0;
+padding:0}
+h2#activity_title .beta{
+	font-size:15px;
+color:#76A045}
+a{
+	color:#0981be;
+	outline:none;
+text-decoration:none}
+a:hover{
+text-decoration:none}
+
+.clearleft{
+clear:left}
+.layer2{
+z-index:2}
+.pagination .current{
+color:#a2b957}
+.drill_table{
+border-collapse:collapse}
+.drill_table tr.odd{
+background:#f8f8f8}
+.drill_table th{
+font-weight:bold}
+.drill_table th,.drill_table td{
+	padding:3px 10px;
+font-size:1em}
+table.with_row_borders td,table.with_row_borders th{
+border-bottom:1px solid #daeaca}
+.page_header{
+	clear:left;
+	background:white;
+padding:0 0 10px 0}
+.page_header h1,.page_header h2,.page_header h3{
+	border-bottom:1px solid #daeaca;
+padding-bottom:0.4em}
+.page_header h1.no_border,.page_header h2.no_border,.page_header h3.no_border{
+border-bottom:none}
+.page_header h1.no_border img,.page_header h2.no_border img,.page_header h3.no_border img{
+float:none}
+.page_header p.border{
+	border-bottom:1px solid #daeaca;
+padding-bottom:5px}
+.page_header h1,.page_header h2,.page_header h3,.page_header p,.page_header .breadcrumb{
+padding:0 10px}
+.page_header h1,.page_header h2{
+overflow:hidden}
+.page_header h1 img,.page_header h1 span,.page_header h2 img,.page_header h2 span{
+float:left}
+.page_header h1 span,.page_header h2 span{
+	width:553px;
+padding-left:15px}
+.page_header .breadcrumb{
+	margin-bottom:1em;
+	font-size:1.4em;
+font-weight:bold}
+.page_content{
+	padding:0 10px;
+	width:auto;
+	float:none;
+	display:block;
+overflow:hidden}
+.page_content.remove_padding{
+padding:0}
+.page_content.bottom_padding{
+padding-bottom:10px}
+a:hover{
+text-decoration:underline}
+#main .doc .page_content{
+	padding:0 10px;
+	width:auto;
+	float:none;
+	display:block;
+overflow:hidden}
+#main .doc .page_content.remove_padding{
+padding:0}
+#main .doc .page_content.bottom_padding{
+padding-bottom:10px}
+#main .doc a:hover{
+text-decoration:underline}
+p{
+margin-bottom:20px}
+p.location_note{
+margin-bottom:5px}
+table p{
+margin-bottom:0}
+h3{
+margin-bottom:10px}
+h3.no_margin{
+margin-bottom:0}
+blockquote ul li{
+	padding-left:20px;
+background:url(http://www.groupon.com/images/groupon/icons/quote.gif) no-repeat top left}
+.large_button{
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	background:#49c9e9 url(http://www.groupon.com/images/groupon/rewards/backgrounds/turquoise_gradient.png) repeat-x left bottom;
+	color:white;
+	display:inline-block;
+	font-size:15px;
+	font-weight:bold;
+	line-height:1;
+	padding:15px 20px;
+	text-align:center;
+text-shadow:0 -1px 0 rgba(0, 0, 0, .5)}
+.large_button:hover{
+text-decoration:none}
+.large_green_button{
+	border:0;
+	cursor:pointer;
+	font-weight:bold;
+	padding:0 12px 0 0;
+	text-align:center;
+	background:url('http://www.groupon.com/images/groupon/buttons/green_btn_right2.png') no-repeat right;
+font-size:10px}
+.large_green_button span{
+	position:relative;
+	display:block;
+	white-space:nowrap;
+	padding:0 0 0 12px;
+	height:27px;
+	line-height:23px;
+	background:url('http://www.groupon.com/images/groupon/buttons/green_sprite.png') no-repeat;
+	color:#fff;
+font-weight:bold}
+a.large_green_button{
+padding-right:14px}
+a.large_green_button span{
+padding-left:14px}
+a.large_green_button:hover{
+text-decoration:none}
+.groupon_table{
+width:100%}
+.groupon_table th{
+	font-weight:bold;
+font-size:1.2em}
+.groupon_table th .td_pad{
+	border-bottom:1px solid #ddedcc;
+margin-bottom:5px}
+.groupon_table th .td_pad.last{
+padding-right:15px}
+.inline_links li{
+float:left}
+.inline_links li a{
+	float:left;
+	display:block;
+	padding:0 5px 0 0;
+	border-right:1px solid #9e9e9e;
+	line-height:normal;
+margin-right:5px}
+.inline_links li.last a{
+	border-right:none;
+margin-right:none}
+.icon_check{
+	padding-left:18px;
+	background:url("http://www.groupon.com/images/groupon/icons/check_green_whitebg.gif") no-repeat left 2px;
+margin-bottom:5px}
+.icon_alert{
+	padding-left:18px;
+	background:url("http://www.groupon.com/images/groupon/icons/alert_whitebg.gif") no-repeat left 2px;
+margin-bottom:5px}
+.td_pad{
+padding:10px 0 10px 15px}
+table .odd{
+background:#ddedcc}
+.waiting{
+background:url("http://www.groupon.com/images/groupon/backgrounds/ajax_loader.gif") no-repeat center right}
+ul.floated li{
+float:left}
+#ratings{
+	width:100px;
+	float:right;
+margin-right:10px}
+#ratings a{
+font-size:12px}
+#ratings small a{
+font-size:10px}
+.filter_list{
+	top:15px;
+	right:12px;
+margin-left:12px}
+.filter_list li{
+	float:left;
+margin:0 2px 0 0}
+.filter_list li.active a{
+	background:#f0f0f0;
+	border:0 solid #f0f0f0;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	color:#000;
+font-weight:700}
+.filter_list li.active a:hover{
+text-decoration:none}
+.filter_list li.label{
+	padding:3px 5px 2px 0;
+	font-size:1em;
+margin-right:0}
+.filter_list li a{
+	display:block;
+	float:left;
+padding:2px 5px}
+.border_spacer{
+	border-top:1px solid #DDEDCC;
+	height:1px;
+	margin:0;
+	padding-bottom:15px;
+clear:both}
+.close{
+	position:absolute;
+	top:8px;
+	right:8px;
+	display:block;
+	background:url("http://www.groupon.com/images/groupon/icons/close.png") no-repeat right;
+	padding-right:18px;
+	font-size:10px;
+color:#303030}
+#announcement .close{
+background:url("http://www.groupon.com/images/groupon/icons/close_announcements.gif") no-repeat right}
+.move_right{
+margin-left:8px}
+.text_center{
+text-align:center}
+.clearfix{
+display:inline-block}
+.clearfix:after{
+	content:" ";
+	display:block;
+	height:0;
+	clear:both;
+	overflow:hidden;
+visibility:hidden}
+.clearfix{
+display:block}
+.clearfix .left{
+	float:left;
+width:auto}
+.clearfix .right{
+	float:right;
+width:auto}
+.float33{
+	float:left;
+width:33%}
+.float50{
+	float:left;
+width:49%}
+.float50.with_left_border{
+border-left:1px solid #daeaca}
+.float50_right{
+	float:right;
+width:49%}
+.float70{
+	float:left;
+width:69%}
+.float70.with_left_border{
+border-left:1px solid #daeaca}
+.float30_right{
+	float:right;
+width:29%}
+.hidden_content{
+	background:#fff;
+	border:2px solid #fff;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+border-radius:8px}
+.hidden_content form{
+padding:8px}
+.hidden_content_toggler{
+	background:url("http://www.groupon.com/images/groupon/icons/blue_arrow.gif") no-repeat 0 .5em;
+padding-left:12px}
+.text_right{
+text-align:right}
+#new_icon{
+	width:27px;
+	height:26px;
+	position:absolute;
+	right:-9px;
+	top:-5px;
+z-index:99}
+a.with_image_and_centered{
+	display:block;
+	text-align:center;
+margin-bottom:10px}
+.existing_customer{
+	overflow:hidden;
+	background:#ddedcc;
+padding-top:10px}
+.fbconnect_login_button{
+	display:block;
+	text-align:center;
+margin-bottom:10px}
+#user_form{
+padding-top:10px}
+#user_form .field{
+	width:269px;
+margin-bottom:10px}
+#user_form .field input{
+width:261px}
+#user_form .field.user_password,#user_form .field.user_password_confirmation{
+	float:left;
+width:124px}
+#user_form .field.user_password label,#user_form .field.user_password_confirmation label{
+width:inherit}
+#user_form .field.user_password input,#user_form .field.user_password_confirmation input{
+width:116px}
+#user_form .field.user_password_confirmation{
+margin-left:20px}
+#login_banner,#login_form{
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+border-radius:10px}
+#login_banner h3{
+margin-bottom:20px}
+#login_form .field.session_remember_me{
+	float:left;
+	line-height:15px;
+	padding:8px 0 20px 0;
+margin-bottom:0}
+#login_form .field.session_remember_me input.check,#login_form .field.session_remember_me label{
+display:inline}
+#login_form .field.session_remember_me label{
+	font-weight:normal;
+padding-left:5px}
+#login_form .field.login{
+	clear:left;
+	margin-bottom:0;
+height:40px}
+#login_form label{
+font-size:12px}
+#login_form .caption{
+display:block}
+#login_form input.button.login{
+	background:url(http://www.groupon.com/images/groupon/buttons/signin_green_bg.gif) no-repeat top left;
+	width:158px;
+	height:33px;
+border:none}
+#login_form a.login_nevermind{
+	position:relative;
+	left:195px;
+top:-25px}
+.admin_actions{
+	padding:5px 0 0 50px;
+display:inline-block}
+.loading{
+	background:url("http://www.groupon.com/images/icons/spinner.gif") no-repeat left;
+	height:16px;
+	position:absolute;
+	right:10px;
+	top:10px;
+width:16px}
+.deal_options div.title{
+	font-size:1.2em;
+font-weight:bold}
+.deal_options table.pledges{
+width:100%}
+.deal_options table.pledges tr td{
+padding:5px 5px 5px 10px}
+.deal_options table.pledges tr td.description{
+text-align:left}
+.deal_options table.pledges tr td.description a.title{
+	font-weight:bold;
+	font-size:1.4em;
+line-height:16px}
+.deal_options table.pledges tr td.description .details{
+	font-size:1.2em;
+	line-height:1;
+	color:#666;
+padding:3px 0 0 0}
+.deal_options table.pledges tr td.description .details em{
+	color:#333;
+font-weight:bold}
+.deal_options table.pledges tr td.description .details .expiration_date{
+	padding:3px 0 0 0;
+	font-size:10px;
+color:#666}
+.deal_options table.pledges tr td.status{
+	width:100px;
+	text-align:right;
+color:#666}
+.deal_options table.pledges tr td.status div{
+	font-size:1.4em;
+line-height:1.2}
+.deal_options table.pledges tr td.purchase{
+	width:80px;
+text-align:center}
+.deal_options table.pledges tr td.purchase a.buy_button{
+	padding-left:5px;
+	display:block;
+	text-decoration:none;
+	color:#fff;
+	width:75px;
+	height:34px;
+	border-left:2px solid #CCC;
+	line-height:1.8;
+margin:auto}
+.deal_options table.pledges tr td.purchase a.buy_button span{
+vertical-align:middle}
+.deal_options table.pledges tr td.purchase a.buy_button span.amount{
+	font-size:1.8em;
+font-weight:bold}
+.deal_options table.pledges tr td.purchase a.buy_button span.symbol{
+font-size:1.2em}
+.deal_options table.pledges tr.sold_out a,.deal_options table.pledges tr.sold_out a:hover,.deal_options table.pledges tr.sold_out div{
+	color:#999;
+	text-decoration:none;
+cursor:default}
+.deal_options table.pledges tr.sold_out td.description .details,.deal_options table.pledges tr.sold_out td.description .details em,.deal_options table.pledges tr.sold_out td.description .details .expiration_date small{
+color:#999}
+.deal_options table.pledges tr.sold_out td.status div.sold_out{
+	color:#ED5824;
+	text-transform:uppercase;
+	font-weight:bold;
+font-size:1.2em}
+.deal_options table.pledges tr.even{
+background-color:#f0f2f1}
+.deal_options table.pledges tr.even td.purchase a.buy_button{
+background:url(http://www.groupon.com/images/groupon/buttons/multideal_option_price_greybg.jpg) no-repeat center right}
+.deal_options table.pledges tr.even.sold_out td.purchase a.buy_button{
+background:url(http://www.groupon.com/images/groupon/buttons/multideal_option_price_disabled_greybg.jpg) no-repeat center right}
+.deal_options table.pledges tr.odd{
+background-color:#FFF}
+.deal_options table.pledges tr.odd td.purchase a.buy_button{
+background:url(http://www.groupon.com/images/groupon/buttons/multideal_option_price_whitebg.jpg) no-repeat center right}
+.deal_options table.pledges tr.odd.sold_out td.purchase a.buy_button{
+background:url(http://www.groupon.com/images/groupon/buttons/multideal_option_price_disabled_whitebg.jpg) no-repeat center right}
+.deals.multideal .primary .price{
+top:6px}
+.deals.multideal .primary .price .amount{
+line-height:0.8}
+.deals .recent,.deals .all{
+width:696px}
+.deals .recent h2,.deals .recent h3,.deals .recent p,.deals .all h2,.deals .all h3,.deals .all p{
+	float:left;
+	width:678px;
+background:white}
+.deals .recent h2,.deals .recent h3,.deals .all h2,.deals .all h3{
+	padding:0 10px;
+border-bottom:1px solid #daeaca}
+.deals .recent p,.deals .all p{
+padding:10px}
+.deals .recent a:hover,.deals .all a:hover{
+text-decoration:underline}
+.deals .recent a.edit,.deals .all a.edit{
+	float:left;
+padding:10px}
+.deals .recent dl.list,.deals .all dl.list{
+	float:left;
+	overflow:hidden;
+padding-top:20px}
+.deals .recent dl.list dt,.deals .all dl.list dt{
+display:none}
+.deals .recent dl.list h3,.deals .all dl.list h3{
+	float:left;
+	width:678px;
+	padding:0 10px 10px 10px;
+border:none}
+.deals .recent dl.list dd,.deals .all dl.list dd{
+	float:left;
+	width:344px;
+height:auto}
+.deals .recent dl.list dd p.date,.deals .all dl.list dd p.date{
+	float:left;
+	width:250px;
+	margin:20px 0 0 30px;
+	display:inline;
+	font-size:0.9em;
+	font-weight:bold;
+padding:3px}
+.deals .recent dl.list dd div,.deals .all dl.list dd div{
+	position:relative;
+	width:300px;
+	height:160px;
+	float:left;
+	margin:0 22px;
+	display:inline;
+border:2px solid #76a045}
+.deals .recent dl.list dd div p,.deals .all dl.list dd div p{
+	float:left;
+	overflow:hidden;
+	width:280px;
+	height:32px;
+	margin-bottom:0;
+	padding:5px 10px;
+line-height:1.1em}
+.deals .recent dl.list dd div p a,.deals .all dl.list dd div p a{
+	color:black;
+height:32px}
+.deals .recent dl.list dd div p a:hover,.deals .all dl.list dd div p a:hover{
+text-decoration:underline}
+.deals .recent dl.list dd div div,.deals .all dl.list dd div div{
+	float:left;
+	width:105px;
+	height:auto;
+	border:none;
+	margin:0;
+padding:0}
+.deals .recent dl.list dd div div .bought,.deals .recent dl.list dd div div .price,.deals .all dl.list dd div div .bought,.deals .all dl.list dd div div .price{
+	position:relative;
+	float:left;
+	width:95px;
+	margin:0 5px;
+	display:inline;
+border:1px solid}
+.deals .recent dl.list dd div div .bought span,.deals .recent dl.list dd div div .price span,.deals .all dl.list dd div div .bought span,.deals .all dl.list dd div div .price span{
+	float:left;
+	overflow:hidden;
+width:95px}
+.deals .recent dl.list dd div div .bought,.deals .all dl.list dd div div .bought{
+	height:40px;
+	border-color:#76a045;
+background:#ddedcc}
+.deals .recent dl.list dd div div .bought span,.deals .all dl.list dd div div .bought span{
+	width:95px;
+	color:#436d12;
+	font-size:0.9em;
+text-align:center}
+.deals .recent dl.list dd div div .bought span.quantity,.deals .all dl.list dd div div .bought span.quantity{
+	font-weight:bold;
+	font-size:24px;
+	text-align:center;
+	line-height:1em;
+	color:black;
+padding-top:2px}
+.deals .recent dl.list dd div div .price,.deals .all dl.list dd div div .price{
+	position:relative;
+	height:64px;
+	margin-top:5px;
+	border-color:#9cbbc3;
+background:#cfeef6}
+.deals .recent dl.list dd div div .price span .key,.deals .all dl.list dd div div .price span .key{
+	float:left;
+	width:50px;
+text-align:right}
+.deals .recent dl.list dd div div .price span .value,.deals .all dl.list dd div div .price span .value{
+	float:left;
+	width:40px;
+	padding-left:5px;
+font-weight:bold}
+.deals .recent dl.list dd div div .price .unit_price,.deals .all dl.list dd div div .price .unit_price{
+	position:relative;
+padding:3px 0}
+.deals .recent dl.list dd div div .price .unit_price .value,.deals .all dl.list dd div div .price .unit_price .value{
+color:white}
+.deals .recent dl.list dd div div .price img,.deals .all dl.list dd div div .price img{
+	width:106px;
+	height:24px;
+	position:absolute;
+	top:-1px;
+left:-10px}
+.deals .recent dl.list dd div div .price span.price_tag,.deals .all dl.list dd div div .price span.price_tag{
+	position:absolute;
+	top:0;
+	left:-11px;
+	width:106px;
+height:24px}
+.deals .recent dl.list dd a,.deals .all dl.list dd a{
+	float:left;
+overflow:hidden}
+.deals .recent dl.list dd a img,.deals .all dl.list dd a img{
+	float:left;
+	margin:0 5px;
+display:inline}
+.deals .recent dl.list dd img#sold_out,.deals .recent dl.list dd span#sold_out,.deals .all dl.list dd img#sold_out,.deals .all dl.list dd span#sold_out{
+	position:absolute;
+	bottom:25px;
+right:7px}
+.deals .recent dl.recent_deals,.deals .all dl.recent_deals{
+	width:696px;
+	float:left;
+overflow:hidden}
+.deals .recent dl.recent_deals dt,.deals .all dl.recent_deals dt{
+display:none}
+.deals .recent dl.recent_deals h3,.deals .all dl.recent_deals h3{
+	float:left;
+	width:678px;
+	padding:0 10px 10px 10px;
+border:none}
+.deals .recent dl.recent_deals dd,.deals .all dl.recent_deals dd{
+	float:left;
+	width:344px;
+height:auto}
+.deals .recent dl.recent_deals dd p.date,.deals .all dl.recent_deals dd p.date{
+	float:left;
+	width:250px;
+	margin:20px 0 0 30px;
+	display:inline;
+	font-size:0.9em;
+	font-weight:bold;
+padding:3px}
+.deals .recent dl.recent_deals dd div,.deals .all dl.recent_deals dd div{
+	position:relative;
+	width:300px;
+	height:160px;
+	float:left;
+	margin:0 22px;
+	display:inline;
+border:2px solid #76a045}
+.deals .recent dl.recent_deals dd div p,.deals .all dl.recent_deals dd div p{
+	float:left;
+	overflow:hidden;
+	width:280px;
+	height:32px;
+	margin-bottom:0;
+	padding:5px 10px;
+line-height:1.1em}
+.deals .recent dl.recent_deals dd div p a,.deals .all dl.recent_deals dd div p a{
+	color:black;
+height:32px}
+.deals .recent dl.recent_deals dd div p a:hover,.deals .all dl.recent_deals dd div p a:hover{
+text-decoration:underline}
+.deals .recent dl.recent_deals dd div div,.deals .all dl.recent_deals dd div div{
+	float:left;
+	width:105px;
+	height:auto;
+	border:none;
+	margin:0;
+padding:0}
+.deals .recent dl.recent_deals dd div div .bought,.deals .recent dl.recent_deals dd div div .price,.deals .all dl.recent_deals dd div div .bought,.deals .all dl.recent_deals dd div div .price{
+	position:relative;
+	float:left;
+	width:95px;
+	margin:0 5px;
+	display:inline;
+border:1px solid}
+.deals .recent dl.recent_deals dd div div .bought span,.deals .recent dl.recent_deals dd div div .price span,.deals .all dl.recent_deals dd div div .bought span,.deals .all dl.recent_deals dd div div .price span{
+	float:left;
+	overflow:hidden;
+width:95px}
+.deals .recent dl.recent_deals dd div div .bought,.deals .all dl.recent_deals dd div div .bought{
+	height:40px;
+	border-color:#76a045;
+background:#ddedcc}
+.deals .recent dl.recent_deals dd div div .bought span,.deals .all dl.recent_deals dd div div .bought span{
+	width:95px;
+	color:#436d12;
+	font-size:0.9em;
+text-align:center}
+.deals .recent dl.recent_deals dd div div .bought span.quantity,.deals .all dl.recent_deals dd div div .bought span.quantity{
+	font-weight:bold;
+	font-size:24px;
+	text-align:center;
+	line-height:1em;
+	color:black;
+padding-top:2px}
+.deals .recent dl.recent_deals dd div div .price,.deals .all dl.recent_deals dd div div .price{
+	position:relative;
+	height:64px;
+	margin-top:5px;
+	border-color:#9cbbc3;
+background:#cfeef6}
+.deals .recent dl.recent_deals dd div div .price span .key,.deals .all dl.recent_deals dd div div .price span .key{
+	float:left;
+	width:50px;
+text-align:right}
+.deals .recent dl.recent_deals dd div div .price span .value,.deals .all dl.recent_deals dd div div .price span .value{
+	float:left;
+	width:40px;
+	padding-left:5px;
+font-weight:bold}
+.deals .recent dl.recent_deals dd div div .price .unit_price,.deals .all dl.recent_deals dd div div .price .unit_price{
+	position:relative;
+padding:3px 0}
+.deals .recent dl.recent_deals dd div div .price .unit_price .value,.deals .all dl.recent_deals dd div div .price .unit_price .value{
+color:white}
+.deals .recent dl.recent_deals dd div div .price img,.deals .all dl.recent_deals dd div div .price img{
+	width:106px;
+	height:24px;
+	position:absolute;
+	top:-1px;
+left:-10px}
+.deals .recent dl.recent_deals dd div div .price span.price_tag,.deals .all dl.recent_deals dd div div .price span.price_tag{
+	position:absolute;
+	top:0;
+	left:-11px;
+	width:106px;
+height:24px}
+.deals .recent dl.recent_deals dd a,.deals .all dl.recent_deals dd a{
+	float:left;
+overflow:hidden}
+.deals .recent dl.recent_deals dd a img,.deals .all dl.recent_deals dd a img{
+	float:left;
+	margin:0 5px;
+display:inline}
+.deals .recent dl.recent_deals dd img#sold_out,.deals .recent dl.recent_deals dd span#sold_out,.deals .all dl.recent_deals dd img#sold_out,.deals .all dl.recent_deals dd span#sold_out{
+	position:absolute;
+	bottom:25px;
+right:7px}
+#content .write_up{
+clear:left}
+#content .write_up .article,#content .write_up .write_up_rail{
+	float:left;
+padding-top:20px}
+#content .write_up .article{
+	width:468px;
+padding-right:10px}
+#content .write_up .article blockquote{
+	margin-bottom:10px;
+	color:#666666;
+	font-weight:bold;
+font-size:1em}
+#content .write_up .article blockquote ul{
+padding:0 40px 0 20px}
+#content .write_up .article blockquote ul li{
+margin-bottom:10px}
+#content .write_up .write_up_rail{
+	width:184px;
+padding-left:10px}
+#content .write_up .write_up_rail .company{
+padding-bottom:30px}
+#meetup-wrap{
+	width:190px;
+	background:url("http://www.groupon.com/images/groupon/sprites/deal_page_sprite.gif") no-repeat 0 -44px;
+padding-top:64px}
+#meetup-wrap #meetup-run{
+	background:url(http://www.groupon.com/images/groupon/backgrounds/meetup-run.jpg) repeat-y;
+padding:5px 7px 0 7px}
+#meetup-wrap #meetup-run h4{
+	line-height:1.1em;
+margin-bottom:10px}
+#meetup-wrap #meetup-run p{
+	margin:0;
+text-align:center}
+#meetup-wrap #meetup-footer{
+	background:url("http://www.groupon.com/images/groupon/sprites/deal_page_sprite.gif") no-repeat 0 -108px;
+height:24px}
+.groupon_voice{
+	width:466px;
+	background:url(http://www.groupon.com/images/groupon/backgrounds/groupon_voice_run.jpg) repeat-y top center;
+margin:0 auto 20px auto}
+.groupon_voice .groupon_voice_top{
+	background:url(http://www.groupon.com/images/groupon/backgrounds/groupon_voice_top.jpg) no-repeat top center;
+	padding:95px 15px 0 15px;
+width:436px}
+.groupon_voice .groupon_voice_top ul.navigation{
+	margin:15px 0 5px 0;
+	overflow:hidden;
+display:inline-block}
+.groupon_voice .groupon_voice_top ul.navigation{
+display:block}
+.groupon_voice .groupon_voice_top ul.navigation li{
+	float:left;
+	padding-right:20px;
+list-style-type:none}
+.groupon_voice .groupon_voice_top ul.navigation li.random{
+padding:0 40px}
+.groupon_voice ul.assistance_links{
+	overflow:hidden;
+	display:inline-block;
+padding:0}
+.groupon_voice ul.assistance_links{
+display:block}
+.groupon_voice ul.assistance_links li{
+	float:left;
+	list-style-type:none;
+padding:0 8px}
+.groupon_voice ul.assistance_links li a{
+font-size:0.9em}
+.groupon_voice ul.assistance_links img.spinner{
+padding:40px 0 40px 210px}
+.groupon_voice img{
+padding:10px 0}
+.groupon_voice ul{
+padding:0 0 0 15px}
+.groupon_voice ul li{
+list-style-type:disc}
+.groupon_voice ul li p{
+	font-size:1em;
+padding:0}
+.groupon_voice blockquote ul li{
+list-style:none}
+.groupon_voice ol li{
+font-size:1em}
+.groupon_voice .groupon_voice_bottom{
+	width:466px;
+height:32px}
+.groupon_voice .groupon_voice_bottom img{
+	float:left;
+padding:0}
+div.confirmation{
+	position:relative;
+z-index:10001}
+div.confirmation .formError{
+font-size:14px}
+div.confirmation #cancel_order_btn{
+	position:absolute;
+	bottom:20px;
+	z-index:100;
+width:702px}
+div.confirmation #cancel_order_btn .pad_thai{
+padding:0 2px}
+#complete_purchase_container .box_content{
+padding-bottom:100px}
+#complete_purchase_container .box_content #order-accept-terms-check{
+margin:10px 0 15px 0}
+#complete_purchase_container .buttons{
+	margin-bottom:20px;
+padding-bottom:10px}
+.pad_left{
+padding-left:10px}
+.js_enabled #complete_purchase_container .box_content{
+padding-bottom:30px}
+.js_enabled #cancel_order_btn{
+display:none}
+.show_cancel_button #complete_purchase_container .box_content{
+padding-bottom:100px}
+.show_cancel_button #cancel_order_btn{
+display:block}
+.cc_form_fields .float50 .field label,.cc_form_fields .float50 .expiration label{
+	float:left;
+width:100%}
+.cc_form_fields .float50 .field #billing_record_cvv,.cc_form_fields .float50 .field #billing_record_cvv,.cc_form_fields .float50 .expiration #billing_record_cvv,.cc_form_fields .float50 .expiration #billing_record_cvv{
+width:45px}
+.cc_form_fields .float50 .field #billing_record_zip,.cc_form_fields .float50 .field #billing_record_zip,.cc_form_fields .float50 .expiration #billing_record_zip,.cc_form_fields .float50 .expiration #billing_record_zip{
+width:120px}
+.cc_form_fields .float50 .field #billing_record_country_and_state,.cc_form_fields .float50 .field #billing_record_country_and_state,.cc_form_fields .float50 .expiration #billing_record_country_and_state,.cc_form_fields .float50 .expiration #billing_record_country_and_state{
+width:130px}
+.cc_form_fields .float50 .field #whats_this,.cc_form_fields .float50 .expiration #whats_this{
+margin-left:8px}
+.cc_form_fields .float50 .expiration{
+clear:left}
+.cc_form_fields .float50 .expiration label{
+margin-bottom:5px}
+.cc_form_fields .float50 .expiration select{
+margin-right:5px}
+#order_shipping_country_and_state{
+width:130px}
+#order_shipping_zip{
+width:120px}
+#credits_cancel_order_tray,#credit_cards_cancel_order_tray{
+clear:both}
+#credits_cancel_order_tray span,#credit_cards_cancel_order_tray span{
+	float:left;
+	padding:10px 0 0 15px;
+font-size:1.2em}
+#credits{
+	padding-top:20px;
+padding-bottom:200px}
+a.cancel_order_control{
+	float:left;
+	clear:left;
+	padding:15px 0 10px 15px;
+font-size:1.2em}
+.confirmation .your_purchase .the_breakdown td{
+vertical-align:top}
+.confirmation .your_purchase .the_breakdown .discount_line_item td{
+border-top:none}
+.confirmation .your_purchase .the_breakdown .discount_line_item .discount_price{
+	text-indent:-.75em;
+	color:#86ad53;
+font-size:1em}
+.confirmation .your_purchase .the_breakdown .discount_line_item p{
+margin-bottom:0}
+.confirmation .your_purchase .the_breakdown .discount_line_item p small{
+	color:#afafaf;
+font-size:11px}
+.confirmation .your_purchase .the_breakdown td.pad_right p{
+padding-right:10px}
+.confirmation .your_purchase .the_breakdown .discount_line_item .right,.confirmation .your_purchase .the_breakdown .total .right{
+padding-right:75px}
+.confirmation .your_purchase .the_breakdown td.with_border{
+border-top:1px solid #daeaca}
+.confirmation .your_purchase .the_breakdown .total td{
+	padding-top:10px;
+border-top:1px solid #76a045}
+.confirmation .your_purchase .the_breakdown .total p{
+	font-size:1.3em;
+margin-bottom:0}
+.confirmation .your_purchase .the_breakdown .total p small{
+	font-size:11px;
+color:#afafaf}
+.confirmation .your_purchase .the_breakdown .interleaved_message p{
+	font-size:11px;
+	font-weight:normal;
+	margin-right:10px;
+	padding:4px;
+	background:#deedcc;
+float:right}
+form.default div.field.billing_record_billing_record_id.radio label{
+width:252px}
+#gift_details{
+background:#f4f4f4}
+#gift_details .close{
+	background:url("http://www.groupon.com/images/groupon/icons/close_grey.gif") no-repeat;
+	cursor:pointer;
+	padding-right:0;
+	width:16px;
+	height:17px;
+	overflow:hidden;
+	line-height:1000em;
+top:5px}
+#gift_details .pad_thai{
+	padding:5px 5px 5px 25px;
+	background:#f4f4f4 url("http://www.groupon.com/images/groupon/icons/icon_gift_grey.gif") no-repeat 5px 5px;
+position:relative}
+#gift_details p{
+font-weight:normal}
+.gift_cards_modal label{
+margin-bottom:0}
+.gift_cards_modal .modal_main{
+	background-image:none;
+padding:20px 10px}
+.gift_cards_modal .modal_footer{
+padding-top:5px}
+.gift_cards_modal .modal_close{
+	float:left;
+	display:block;
+	margin-left:5px;
+font-size:1.2em}
+.gift_cards_modal #gift_details_save_btn{
+	display:block;
+	float:left;
+	background:url("http://www.groupon.com/images/groupon/buttons/save_green.gif") no-repeat;
+	width:63px;
+	height:23px;
+	margin-left:10px;
+	overflow:hidden;
+line-height:1000em}
+.billing_record_submit{
+	float:left;
+	background:url(http://www.groupon.com/images/groupon/buttons/save_card.gif) no-repeat top left;
+	width:99px;
+	height:30px;
+	text-indent:-10000px;
+	line-height:1em;
+border:none}
+.billing_record_submit.disabled{
+opacity:0.5}
+span.or,a.cancel{
+	float:left;
+	margin-top:10px;
+padding-left:10px}
+a.cancel{
+	padding-top:0;
+font-weight:bold}
+a.cancel:hover{
+text-decoration:underline}
+#btn_update_total{
+	background:transparent;
+	border:0;
+	cursor:pointer;
+	color:#0981be;
+	float:none;
+	font-size:11px;
+	height:auto;
+	margin:0;
+	padding:0;
+	text-transform:lowercase;
+width:auto}
+#btn_update_total:hover{
+text-decoration:underline}
+body.js_enabled.rewards_beta_program .sweet_stache #btn_update_total{
+display:none}
+.check #order_use_reward_points{
+margin-bottom:0}
+.fb_prompt .formError{
+color:#ff5050}
+.formError{
+color:#ff5050}
+.admin_index,.new,.payment_whats_this{
+	background:white;
+	padding:0;
+padding:0}
+.admin_index .summary,.new .summary,.payment_whats_this .summary{
+	position:absolute;
+	right:0;
+	width:250px;
+	padding:5px;
+	background:#ddedcc;
+	border:2px solid #76a045;
+border-right:none}
+.admin_index .summary dl dt,.new .summary dl dt,.payment_whats_this .summary dl dt{
+	font-size:1.2em;
+font-weight:bold}
+.admin_index .drill_table,.new .drill_table,.payment_whats_this .drill_table{
+border-collapse:collapse}
+.admin_index .drill_table tr.odd,.new .drill_table tr.odd,.payment_whats_this .drill_table tr.odd{
+background:#f8f8f8}
+.admin_index .drill_table th,.new .drill_table th,.payment_whats_this .drill_table th{
+font-weight:bold}
+.admin_index .drill_table th,.admin_index .drill_table td,.new .drill_table th,.new .drill_table td,.payment_whats_this .drill_table th,.payment_whats_this .drill_table td{
+	padding:3px 10px;
+font-size:1em}
+.admin_index .drill_table .date_column,.new .drill_table .date_column,.payment_whats_this .drill_table .date_column{
+width:78px}
+.admin_index .drill_table .quick_edit,.new .drill_table .quick_edit,.payment_whats_this .drill_table .quick_edit{
+	white-space:nowrap;
+font-size:larger}
+.admin_index .drill_table td,.new .drill_table td,.payment_whats_this .drill_table td{
+padding:0 10px}
+.admin_index .drill_table td#deal_title,.new .drill_table td#deal_title,.payment_whats_this .drill_table td#deal_title{
+	width:220px;
+line-height:1em}
+.admin_index .drill_table td .division_areas li,.new .drill_table td .division_areas li,.payment_whats_this .drill_table td .division_areas li{
+	margin-left:10px;
+font-size:1.0em}
+.admin .edit,.admin .new{
+	float:left;
+	position:relative;
+	width:916px;
+	padding:0 20px;
+	border:2px solid #76a045;
+	border-top:none;
+	border-bottom:none;
+background:white}
+.admin .edit h2,.admin .new h2{
+	width:666px;
+padding-bottom:20px}
+.admin .edit form a,.admin .new form a{
+	float:left;
+	width:100%;
+margin-bottom:25px}
+.admin .edit form a.generate_address,.admin .new form a.generate_address{
+margin-bottom:0}
+.admin .edit form a#map_test_link,.admin .new form a#map_test_link{
+clear:left}
+.admin .edit form .button.save,.admin .new form .button.save{
+	float:left;
+clear:left}
+.admin .edit form .field.date_select select,.admin .new form .field.date_select select{
+	float:none;
+clear:none}
+.admin .edit form .field,.admin .new form .field{
+	width:100%;
+	float:left;
+	margin:0 0 25px 0;
+padding:0}
+.admin .edit form .field input,.admin .edit form .field textarea,.admin .edit form .field select,.admin .new form .field input,.admin .new form .field textarea,.admin .new form .field select{
+	float:left;
+clear:left}
+.admin .edit form .field label,.admin .new form .field label{
+	float:left;
+	width:100%;
+font-weight:bold}
+.admin .edit form .field label span.caption,.admin .new form .field label span.caption{
+	display:inline;
+	clear:none;
+margin-left:0}
+.admin .edit form .field.check label,.admin .new form .field.check label{
+width:auto}
+.admin .edit form .field.campaign_title input,.admin .new form .field.campaign_title input{
+width:420px}
+.admin .edit form .field.campaign_deal_vendor_map_url,.admin .edit form .field.campaign_deal_vendor_name,.admin .edit form .field.campaign_deal_vendor_location,.admin .new form .field.campaign_deal_vendor_map_url,.admin .new form .field.campaign_deal_vendor_name,.admin .new form .field.campaign_deal_vendor_location{
+margin-bottom:0}
+.admin .edit form .field.campaign_deal_vendor_map_url a,.admin .edit form .field.campaign_deal_vendor_name a,.admin .edit form .field.campaign_deal_vendor_location a,.admin .new form .field.campaign_deal_vendor_map_url a,.admin .new form .field.campaign_deal_vendor_name a,.admin .new form .field.campaign_deal_vendor_location a{
+margin-bottom:25px}
+.admin .edit form .launch_date,.admin .edit form .close_date,.admin .edit form .release_date,.admin .new form .launch_date,.admin .new form .close_date,.admin .new form .release_date{
+	float:left;
+width:329px}
+.admin .edit form .launch_date label,.admin .edit form .close_date label,.admin .edit form .release_date label,.admin .new form .launch_date label,.admin .new form .close_date label,.admin .new form .release_date label{
+	float:left;
+width:329px}
+.admin .edit form .close_time,.admin .edit form .launch_time,.admin .new form .close_time,.admin .new form .launch_time{
+	display:none;
+	float:left;
+	width:329px;
+margin:10px 0 25px 0}
+.admin .edit form .close_time input,.admin .edit form .launch_time input,.admin .new form .close_time input,.admin .new form .launch_time input{
+display:none}
+.admin .edit form .deal_min input,.admin .new form .deal_min input{
+width:60px}
+.admin .edit form .currency_container,.admin .new form .currency_container{
+font-size:12px}
+.admin .edit form .launch_date select,.admin .edit form .close_date select,.admin .edit form .release_date select,.admin .new form .launch_date select,.admin .new form .close_date select,.admin .new form .release_date select{
+	clear:none;
+float:none}
+.admin .edit form fieldset.pledges,.admin .new form fieldset.pledges{
+	border:1px solid #BBB;
+	margin:0 0 30px 0;
+	padding:0;
+	padding-top:10px;
+width:99%}
+.admin .edit form fieldset.pledges legend,.admin .new form fieldset.pledges legend{
+	font-size:1.5em;
+margin:0 10px}
+.admin .edit form fieldset.pledges a.add_nested_item,.admin .new form fieldset.pledges a.add_nested_item{
+	width:auto;
+margin-left:90%}
+.admin .edit form fieldset.pledges .campaign_tipping_point,.admin .new form fieldset.pledges .campaign_tipping_point{
+margin-left:10px}
+.admin .edit form fieldset.pledges .campaign_tipping_point input,.admin .new form fieldset.pledges .campaign_tipping_point input{
+width:60px}
+.admin .edit form fieldset.pledges div.campaign_uses_generated_voucher_codes,.admin .new form fieldset.pledges div.campaign_uses_generated_voucher_codes{
+margin-bottom:0}
+.admin .edit form fieldset.pledges fieldset.pledge,.admin .new form fieldset.pledges fieldset.pledge{
+	zoom:1;
+	border:1px solid #ddd;
+	padding:0;
+	clear:left;
+	overflow:hidden;
+margin:10px}
+.admin .edit form fieldset.pledges fieldset.pledge fieldset,.admin .new form fieldset.pledges fieldset.pledge fieldset{
+	padding:0;
+	margin:10px;
+	overflow:hidden;
+clear:none}
+.admin .edit form fieldset.pledges fieldset.pledge fieldset div.field,.admin .new form fieldset.pledges fieldset.pledge fieldset div.field{
+	width:auto;
+	padding:0;
+margin:0}
+.admin .edit form fieldset.pledges fieldset.pledge fieldset div.field label,.admin .new form fieldset.pledges fieldset.pledge fieldset div.field label{
+	float:none;
+	width:auto;
+display:block}
+.admin .edit form fieldset.pledges fieldset.pledge fieldset div.field input,.admin .new form fieldset.pledges fieldset.pledge fieldset div.field input{
+width:650px}
+.admin .edit form fieldset.pledges fieldset.pledge fieldset.merchant_codes,.admin .new form fieldset.pledges fieldset.pledge fieldset.merchant_codes{
+clear:left}
+.admin .edit form fieldset.pledges fieldset.pledge div.check,.admin .new form fieldset.pledges fieldset.pledge div.check{
+	margin-left:650px;
+	width:auto;
+display:inline /* IE6 double margin fix */}
+.admin .edit form fieldset.pledges fieldset.pledge .price_and_quantities,.admin .new form fieldset.pledges fieldset.pledge .price_and_quantities{
+overflow:hidden}
+.admin .edit form fieldset.pledges fieldset.pledge .price_and_quantities fieldset.price,.admin .edit form fieldset.pledges fieldset.pledge .price_and_quantities fieldset.quantities,.admin .edit form fieldset.pledges fieldset.pledge .price_and_quantities fieldset.expires_at,.admin .new form fieldset.pledges fieldset.pledge .price_and_quantities fieldset.price,.admin .new form fieldset.pledges fieldset.pledge .price_and_quantities fieldset.quantities,.admin .new form fieldset.pledges fieldset.pledge .price_and_quantities fieldset.expires_at{
+	clear:none;
+	margin-right:20px;
+float:left}
+.admin .edit form fieldset.pledges fieldset.pledge .price_and_quantities fieldset.price div.field input,.admin .edit form fieldset.pledges fieldset.pledge .price_and_quantities fieldset.quantities div.field input,.admin .edit form fieldset.pledges fieldset.pledge .price_and_quantities fieldset.expires_at div.field input,.admin .new form fieldset.pledges fieldset.pledge .price_and_quantities fieldset.price div.field input,.admin .new form fieldset.pledges fieldset.pledge .price_and_quantities fieldset.quantities div.field input,.admin .new form fieldset.pledges fieldset.pledge .price_and_quantities fieldset.expires_at div.field input{
+width:60px}
+.admin .edit form fieldset.pledges fieldset.pledge .price_and_quantities fieldset.price div.field,.admin .edit form fieldset.pledges fieldset.pledge .price_and_quantities fieldset.quantities div.field,.admin .edit form fieldset.pledges fieldset.pledge .price_and_quantities fieldset.expires_at div.field,.admin .new form fieldset.pledges fieldset.pledge .price_and_quantities fieldset.price div.field,.admin .new form fieldset.pledges fieldset.pledge .price_and_quantities fieldset.quantities div.field,.admin .new form fieldset.pledges fieldset.pledge .price_and_quantities fieldset.expires_at div.field{
+	clear:none;
+	float:left;
+margin-right:5px}
+.admin .edit form fieldset.pledges fieldset.pledge .price_and_quantities fieldset.expires_at,.admin .new form fieldset.pledges fieldset.pledge .price_and_quantities fieldset.expires_at{
+	margin-right:0;
+clear:left}
+.admin .edit form fieldset.pledges fieldset.pledge .price_and_quantities fieldset.expires_at div.field select,.admin .new form fieldset.pledges fieldset.pledge .price_and_quantities fieldset.expires_at div.field select{
+	float:none;
+clear:none}
+.admin .edit .summary,.admin .new .summary{
+	position:absolute;
+	right:0;
+	width:250px;
+	padding:5px;
+	background:#ddedcc;
+	border:2px solid #76a045;
+border-right:none}
+.admin .edit .summary dl dt,.admin .new .summary dl dt{
+	font-size:1.2em;
+font-weight:bold}
+.admin .edit #deal_summary .pledge_info,.admin .new #deal_summary .pledge_info{
+padding-left:1em}
+.admin .edit #deal_summary dd.warning,.admin .new #deal_summary dd.warning{
+	color:red;
+font-weight:bold}
+.admin .edit #locations,.admin .new #locations{
+	width:40%;
+	margin-bottom:25px;
+marin-top:10px}
+.admin .edit #locations hr,.admin .new #locations hr{
+	float:left;
+	width:100%;
+	height:3px;
+	border:none;
+	color:#d9d9d9;
+	background:#d9d9d9;
+margin:20px 0px 10px}
+.admin .editorial{
+	position:relative;
+	float:left;
+	width:916px;
+	padding:0 20px;
+	border:2px solid #76a045;
+	border-top:none;
+	border-bottom:none;
+background:white}
+.admin .editorial h2{
+	width:666px;
+padding-bottom:20px}
+.admin .editorial .field,.admin .editorial .title_subtitle_subject_highlights,.admin .editorial .details_write_up{
+	float:left;
+	padding:0;
+margin:0}
+.admin .editorial .field input,.admin .editorial .title_subtitle_subject_highlights input,.admin .editorial .details_write_up input{
+clear:left}
+.admin .editorial .field.campaign_image,.admin .editorial .title_subtitle_subject_highlights.campaign_image,.admin .editorial .details_write_up.campaign_image{
+	float:left;
+	width:916px;
+	margin:0 0 6em 0;
+padding-top:0}
+.admin .editorial .img{
+	float:left;
+margin-top:6em}
+.admin .editorial .title_subtitle_subject_highlights{
+	clear:left;
+	width:916px;
+margin-top:40px}
+.admin .editorial .title_subtitle_subject_highlights .primary,.admin .editorial .title_subtitle_subject_highlights .primary .field,.admin .editorial .title_subtitle_subject_highlights .secondary{
+	float:left;
+width:445px}
+.admin .editorial .title_subtitle_subject_highlights .primary input,.admin .editorial .title_subtitle_subject_highlights .primary .field input,.admin .editorial .title_subtitle_subject_highlights .secondary input{
+width:420px}
+.admin .editorial .title_subtitle_subject_highlights .primary .campaign_title,.admin .editorial .title_subtitle_subject_highlights .primary .campaign_subtitle,.admin .editorial .title_subtitle_subject_highlights .primary .campaign_announcement_subject,.admin .editorial .title_subtitle_subject_highlights .primary .campaign_deal_highlights,.admin .editorial .title_subtitle_subject_highlights .primary .field .campaign_title,.admin .editorial .title_subtitle_subject_highlights .primary .field .campaign_subtitle,.admin .editorial .title_subtitle_subject_highlights .primary .field .campaign_announcement_subject,.admin .editorial .title_subtitle_subject_highlights .primary .field .campaign_deal_highlights,.admin .editorial .title_subtitle_subject_highlights .secondary .campaign_title,.admin .editorial .title_subtitle_subject_highlights .secondary .campaign_subtitle,.admin .editorial .title_subtitle_subject_highlights .secondary .campaign_announcement_subject,.admin .editorial .title_subtitle_subject_highlights .secondary .campaign_deal_highlights{
+margin-bottom:25px}
+.admin .editorial .title_subtitle_subject_highlights .secondary .campaign_deal_highlights{
+float:right}
+.admin .editorial .title_subtitle_subject_highlights .secondary .campaign_deal_highlights textarea{
+clear:left}
+.admin .editorial .details_write_up{
+	width:916px;
+	float:left;
+	clear:left;
+margin-bottom:25px}
+.admin .editorial .details_write_up textarea{
+height:600px}
+.admin .editorial .details_write_up .write_up{
+	width:595px;
+	background:none;
+margin-left:0}
+.admin .editorial .details_write_up .write_up textarea{
+width:569px}
+.admin .editorial .details_write_up .details{
+	float:left;
+width:293px}
+.admin .editorial .campaign_excerpt,.admin .editorial .campaign_announcement_ad_content,.admin .editorial .campaign_side_deal_content{
+	width:100%;
+margin-bottom:25px}
+.admin .editorial .campaign_excerpt textarea,.admin .editorial .campaign_announcement_ad_content textarea,.admin .editorial .campaign_side_deal_content textarea{
+	clear:left;
+width:569px}
+.admin .editorial .campaign_excerpt textarea{
+height:100px}
+.admin .editorial .campaign_announcement_ad_content label,.admin .editorial .campaign_side_deal_content label{
+width:140px}
+.admin .editorial .campaign_announcement_ad_content textarea,.admin .editorial .campaign_side_deal_content textarea{
+height:75px}
+.admin .editorial .buttons{
+	width:916px;
+	padding-left:0;
+	clear:left;
+float:left}
+.admin .editorial .buttons .button.save,.admin .editorial .buttons .preview{
+float:left}
+.admin .editorial .summary{
+	position:absolute;
+	right:0;
+	width:250px;
+	padding:5px;
+	background:#ddedcc;
+	border:2px solid #76a045;
+border-right:none}
+.admin .editorial .summary dl dt{
+	font-size:1.2em;
+font-weight:bold}
+.admin .coupon{
+	position:relative;
+	float:left;
+	width:916px;
+	padding:0 20px;
+	border:2px solid #76a045;
+	border-top:none;
+	border-bottom:none;
+background:white}
+.admin .coupon h2{
+	width:666px;
+padding-bottom:20px}
+.admin .coupon .field{
+	float:left;
+	width:916px;
+	padding:0;
+margin:0 0 25px 0}
+.admin .coupon .field label{
+	font-weight:bold;
+width:200px}
+.admin .coupon .field input,.admin .coupon .field textarea{
+clear:left}
+.admin .coupon .field.coupon_title,.admin .coupon .field.coupon_subtitle{
+float:left}
+.admin .coupon .field.coupon_title input,.admin .coupon .field.coupon_subtitle input{
+width:420px}
+.admin .coupon .field.coupon_expires_at label{
+width:916px}
+.admin .coupon .buttons{
+	width:916px;
+	float:left;
+padding-left:0}
+.admin .coupon .buttons input,.admin .coupon .buttons a{
+	float:left;
+margin-right:20px}
+.admin .coupon .expire_time{
+display:none}
+.admin .coupon .summary{
+	position:absolute;
+	right:0;
+	width:250px;
+	padding:5px;
+	background:#ddedcc;
+	border:2px solid #76a045;
+border-right:none}
+.admin .coupon .summary dl dt{
+	font-size:1.2em;
+font-weight:bold}
+.location{
+	border-bottom:2px solid #ccc;
+margin-bottom:10px}
+.vendors .merchant{
+	border-bottom:2px solid #aaa;
+	margin:10px;
+padding:0 20px 20px 20px}
+.vendors .merchant fieldset.locations{
+	border:1px solid #BBB;
+	margin:20 0 30px 0;
+	padding-top:10px;
+width:75%}
+.vendors .merchant fieldset.locations legend{
+	font-size:1.5em;
+margin:0 10px}
+.vendors .merchant fieldset.locations fieldset.location{
+	border:1px solid #BBB;
+	margin:0 20px 15px 20px;
+padding:10px}
+.vendors .merchant fieldset.locations fieldset.location textarea{
+height:100px}
+.vendors .merchant_contact{
+	margin:10px;
+padding:0 20px 20px 20px}
+.vendors div.field{
+	margin:0;
+padding:3px}
+#groupon_margin_preview{
+	border-bottom:1px solid #ccc;
+border-left:1px solid #ccc}
+#groupon_margin_preview td,#groupon_margin_preview th{
+	border-top:1px solid #ccc;
+	border-right:1px solid #ccc;
+text-align:center}
+.dashboard ul li a.csv{
+	background:url(http://www.groupon.com/images/groupon/icons/csv.gif) no-repeat top right;
+	padding-right:20px;
+height:16px}
+.dashboard ul li a#print{
+	background:url(http://www.groupon.com/images/groupon/icons/print.gif) no-repeat top right;
+	padding-right:20px;
+height:16px}
+.coupons .list{
+	background:white;
+	padding:0;
+	font-size:1.2em;
+color:#333333}
+.coupons .list table{
+border-collapse:collapse}
+.coupons .list table tr.odd{
+background:#f8f8f8}
+.coupons .list table th{
+font-weight:bold}
+.coupons .list table th,.coupons .list table td{
+	padding:3px 10px;
+font-size:1em}
+.coupons .list table tr th{
+	font-size:2em;
+padding:0 6px}
+.coupons .list table tr td .sample .coupon_content{
+	border:2px dashed #999;
+	margin:0;
+	width:678px;
+	height:auto;
+vertical-align:top}
+.coupons .list table tr td .sample .coupon_content ul{
+	list-style-type:none;
+	padding:0;
+margin:0}
+.coupons .list table tr td .sample .coupon_content tr td{
+padding:0}
+.coupons .list table tr td .sample .coupon_content tr td table{
+width:100%}
+.coupons .list table tr td .sample .coupon_content tr td table tr.header{
+	background:none;
+	height:auto;
+padding-top:5px}
+.coupons .list table tr td .sample .coupon_content tr td table tr.header td{
+	padding:0 0 0 0.4em;
+width:15%}
+.coupons .list table tr td .sample .coupon_content tr td table tr.header td img#campaign{
+margin-top:0.8em}
+.coupons .list table tr td .sample .coupon_content tr td table tr.header td.name{
+	width:70%;
+padding-top:0}
+.coupons .list table tr td .sample .coupon_content tr td table tr.header td.name ul li{
+	font-size:5.6em;
+	font-weight:bold;
+line-height:1em}
+.coupons .list table tr td .sample .coupon_content tr td table tr.header td.name ul li.url{
+	margin:-0.3em 0 0 0.4em;
+	font-size:2em;
+font-weight:normal}
+.coupons .list table tr td .sample .coupon_content td{
+	padding:0 0 0 0.4em;
+	width:25%;
+vertical-align:top}
+.coupons .list table tr td .sample .coupon_content td dl{
+	width:80%;
+	border:1px dashed #D9D9D9;
+	font-size:0.8em;
+	padding:0.4em;
+margin:0}
+.coupons .list table tr td .sample .coupon_content td dl dd{
+margin:0 0 0.2em 0.8em}
+.coupons .list table tr td .sample .coupon_content td dl dt{
+	font-weight:bold;
+font-size:1.6em}
+.coupons .list table tr td .sample .coupon_content td.vendor{
+width:75%}
+.coupons .list table tr td .sample .coupon_content td.vendor ul{
+padding:0 5px 0.3em 5px}
+.coupons .list table tr td .sample .coupon_content td.vendor ul li{
+font-size:1.2em}
+.coupons .list table tr td .sample .coupon_content td.vendor ul li.title{
+	font-size:2em;
+padding-top:5px}
+.coupons .list table tr td .sample .coupon_content td.vendor ul li.subtitle{
+font-size:2em}
+.coupons .list table tr td .sample .coupon_content td.vendor ul li.redeem,.coupons .list table tr td .sample .coupon_content td.vendor ul li.conditions{
+	padding:0.4em 0 0 0;
+font-weight:bold}
+.coupons .list table tr td .sample .updated_sample{
+	overflow:hidden;
+	width:80%;
+	margin:0 auto;
+	border:2px solid #666666;
+padding:0 1em 1em 1em}
+.coupons .list table tr td .sample .updated_sample p{
+font-weight:bold}
+.coupons .list table tr td .sample .updated_sample .logo{
+	float:left;
+margin-top:1.2em}
+.coupons .list table tr td .sample .updated_sample .code{
+	float:right;
+	width:auto;
+	font-size:4em;
+	font-weight:bold;
+margin-top:0}
+.coupons .list table tr td .sample .updated_sample .title{
+	width:100%;
+	clear:left;
+	border-top:1px solid #ccc;
+	padding-top:0.6em;
+	font-size:2em;
+	font-weight:bold;
+	line-height:0.8em;
+margin-top:0}
+.coupons .list table tr td .sample .updated_sample .subtitle{
+	width:100%;
+	clear:left;
+	font-size:1.4em;
+	font-weight:bold;
+margin-top:0}
+.coupons .list table tr td .sample .updated_sample div{
+	float:left;
+	width:50%;
+margin-top:1em}
+.coupons .list table tr td .sample .updated_sample div .recipients{
+	clear:left;
+	width:auto;
+margin:0.2em 0}
+.coupons .list table tr td .sample .updated_sample div .expires_on,.coupons .list table tr td .sample .updated_sample div .redeemable_on{
+	clear:left;
+	width:auto;
+margin:0.2em 0}
+.coupons .list table tr td .sample .updated_sample div .fine_print{
+	clear:left;
+	width:auto;
+margin:0.2em 0}
+.coupons .list table tr td .sample .updated_sample .redeem_at{
+	float:left;
+	width:auto;
+	margin-top:1em;
+padding-left:3em}
+.recent,.all,.follow{
+	background:white;
+padding:0}
+.admin{
+	float:left;
+	width:960px;
+background:#f8f8f8}
+.deals .admin_index .campaign_avatar{
+width:50px}
+.confirmation input,.confirmation select,.confirmation textarea,.confirmation #your_purchase,.gift_cards input,.gift_cards select,.gift_cards textarea,.gift_cards #your_purchase{
+font-family:Helvetica, Arial, sans-serif}
+.confirmation img.chrome,.confirmation span.chrome,.gift_cards img.chrome,.gift_cards span.chrome{
+	display:block;
+float:left}
+.confirmation img.chrome.top,.confirmation span.chrome.top,.gift_cards img.chrome.top,.gift_cards span.chrome.top{
+margin-top:20px}
+.confirmation .deal_summary,.gift_cards .deal_summary{
+	width:698px;
+	display:inline;
+	float:left;
+	margin-top:20px;
+	border:2px dashed #325c01;
+background:white}
+.confirmation .deal_summary h2,.gift_cards .deal_summary h2{
+	padding:10px;
+	border-bottom:1px solid #f8f8f8;
+text-align:center}
+.confirmation .buttons .button,.gift_cards .buttons .button{
+	display:inline;
+	float:left;
+	padding-left:0;
+	width:208px;
+	height:38px;
+background:url(http://www.groupon.com/images/groupon/buttons/checkout_sprite.gif) no-repeat}
+.confirmation .buttons .button.complete,.confirmation .buttons .button.update,.gift_cards .buttons .button.complete,.gift_cards .buttons .button.update{
+	background-position:0 0;
+	margin-right:6px;
+	width:208px;
+border:none}
+.confirmation .buttons .button.complete.disabled,.confirmation .buttons .button.update.disabled,.gift_cards .buttons .button.complete.disabled,.gift_cards .buttons .button.update.disabled{
+	opacity:0.5;
+	-moz-opacity:0.5;
+	-khtml-opacity:0.5;
+filter:alpha(opacity=50)}
+.confirmation .buttons .button.complete,.confirmation .buttons .button.update,.gift_cards .buttons .button.complete,.gift_cards .buttons .button.update{
+	padding-top:35px;
+color:white}
+.confirmation .buttons .button.update,.gift_cards .buttons .button.update{
+	background-position:0 -40px;
+	float:left;
+display:inline}
+.confirmation .buttons .cancel-order,.gift_cards .buttons .cancel-order{
+	background:url(http://www.groupon.com/images/groupon/buttons/checkout_sprite.gif) no-repeat  0 -80px;
+	padding-top:0;
+	width:208px;
+	height:38px;
+	border:none;
+	cursor:pointer;
+	display:block;
+	line-height:1em;
+text-indent:-10000px}
+.confirmation .page_header h2,.gift_cards .page_header h2{
+border-bottom:none}
+.confirmation .your_purchase h2,.gift_cards .your_purchase h2{
+	margin-bottom:20px;
+padding:0 10px}
+.confirmation .your_purchase .error_notification,.gift_cards .your_purchase .error_notification{
+	background:#ffb6b6;
+	padding:5px 10px;
+	color:#cc1d1d;
+font-size:1.2em}
+.confirmation .your_purchase table,.gift_cards .your_purchase table{
+	display:inline;
+	float:left;
+	width:100%;
+	font-family:"Helvetica";
+	font-size:1.2em;
+color:black}
+.confirmation .your_purchase table td,.confirmation .your_purchase table td.with_border,.gift_cards .your_purchase table td,.gift_cards .your_purchase table td.with_border{
+border-top:1px solid #daeaca}
+.confirmation .your_purchase table td.description,.confirmation .your_purchase table th.description,.gift_cards .your_purchase table td.description,.gift_cards .your_purchase table th.description{
+width:384px}
+.confirmation .your_purchase table td.description select,.confirmation .your_purchase table th.description select,.gift_cards .your_purchase table td.description select,.gift_cards .your_purchase table th.description select{
+	display:block;
+	width:100%;
+	font-size:15px;
+	margin-bottom:4px;
+	padding:5px 2px 5px 5px;
+	border:1px solid #ccc;
+line-height:26px}
+.confirmation .your_purchase table td.quantity,.confirmation .your_purchase table td.description,.gift_cards .your_purchase table td.quantity,.gift_cards .your_purchase table td.description{
+padding-top:10px}
+.confirmation .your_purchase table td,.gift_cards .your_purchase table td{
+	vertical-align:top;
+padding-top:18px}
+.confirmation .your_purchase table td.quantity,.gift_cards .your_purchase table td.quantity{
+width:85px}
+.confirmation .your_purchase table td.quantity.fixed,.gift_cards .your_purchase table td.quantity.fixed{
+	text-align:center;
+padding:0}
+.confirmation .your_purchase table td.quantity input,.gift_cards .your_purchase table td.quantity input{
+	float:left;
+	width:32px;
+	height:26px;
+	font-size:1.2em;
+	padding-top:2px;
+	margin-left:5px;
+text-align:center}
+.confirmation .your_purchase table td.quantity span.update,.gift_cards .your_purchase table td.quantity span.update{
+	float:left;
+	clear:left;
+	width:70px;
+	padding-top:2px;
+padding-left:0}
+.confirmation .your_purchase table td.quantity span.update a,.gift_cards .your_purchase table td.quantity span.update a{
+font-size:0.6em}
+.confirmation .your_purchase table td.quantity span.update a:hover,.gift_cards .your_purchase table td.quantity span.update a:hover{
+text-decoration:underline}
+.confirmation .your_purchase table td.price,.gift_cards .your_purchase table td.price{
+width:155px}
+.confirmation .your_purchase table td.price span,.gift_cards .your_purchase table td.price span{
+float:left}
+.confirmation .your_purchase table td.price span.times,.confirmation .your_purchase table td.price span.equal,.gift_cards .your_purchase table td.price span.times,.gift_cards .your_purchase table td.price span.equal{
+color:#666666}
+.confirmation .your_purchase table td.price span.times,.gift_cards .your_purchase table td.price span.times{
+	padding-right:35px;
+	padding-top:3px;
+font-size:0.8em}
+.confirmation .your_purchase table td.price span.equal,.gift_cards .your_purchase table td.price span.equal{
+padding-left:35px}
+.confirmation .your_purchase table td.total,.gift_cards .your_purchase table td.total{
+	width:100px;
+padding-top:15px}
+.confirmation .your_purchase table td.total span,.gift_cards .your_purchase table td.total span{
+	float:left;
+font-size:1.3em}
+.confirmation .your_purchase table td.total img,.gift_cards .your_purchase table td.total img{
+	float:right;
+margin-right:10px}
+.confirmation .your_purchase table td,.gift_cards .your_purchase table td{
+	font-weight:bold;
+font-size:1.4em}
+.confirmation .your_purchase table td p,.gift_cards .your_purchase table td p{
+font-size:.75em}
+.confirmation .your_purchase table td #applied_points,.gift_cards .your_purchase table td #applied_points{
+	width:100%;
+	padding-top:5px;
+float:right}
+.confirmation .your_purchase table td #applied_points .applied_credit,.gift_cards .your_purchase table td #applied_points .applied_credit{
+	float:left;
+font-size:1em}
+.confirmation .your_purchase table td #applied_points .applied_credit .hyphen,.gift_cards .your_purchase table td #applied_points .applied_credit .hyphen{
+	float:none;
+	padding:0 40px 0 30px;
+color:#666666}
+.confirmation .your_purchase table td #applied_points #applied_points_amount,.confirmation .your_purchase table td #applied_points .dollar_sign,.gift_cards .your_purchase table td #applied_points #applied_points_amount,.gift_cards .your_purchase table td #applied_points .dollar_sign{
+float:left}
+.confirmation .your_purchase table td #applied_points .credit_remaining,.gift_cards .your_purchase table td #applied_points .credit_remaining{
+	clear:left;
+	width:auto;
+	font-size:0.7em;
+	font-weight:normal;
+color:#444444}
+.confirmation .your_purchase table td #applied_points .credit_remaining span,.gift_cards .your_purchase table td #applied_points .credit_remaining span{
+	float:left;
+	font-size:1em;
+padding-bottom:0.4em}
+.confirmation .your_purchase table td #applied_points .you_pay,.gift_cards .your_purchase table td #applied_points .you_pay{
+	clear:left;
+	width:auto;
+	padding:10px 15px 5px 15px;
+	margin:10px 30px 0 0;
+	background:#deedcc;
+border:1px solid #76a045}
+.confirmation .your_purchase table td #applied_points .you_pay p span,.gift_cards .your_purchase table td #applied_points .you_pay p span{
+float:left}
+.confirmation .your_purchase table td #applied_points .you_pay p span#remaining_payment_amount,.gift_cards .your_purchase table td #applied_points .you_pay p span#remaining_payment_amount{
+padding-right:0.4em}
+.confirmation .your_purchase table th,.confirmation .your_purchase table th.description,.gift_cards .your_purchase table th,.gift_cards .your_purchase table th.description{
+	padding-bottom:0;
+font-weight:bold}
+.confirmation .your_purchase table th.price,.confirmation .your_purchase table th.description.price,.gift_cards .your_purchase table th.price,.gift_cards .your_purchase table th.description.price{
+	width:110px;
+padding-left:42px}
+.confirmation #your_purchase h2,.gift_cards #your_purchase h2{
+	padding:0 10px;
+margin-bottom:10px}
+.confirmation #your_purchase .error_notification,.gift_cards #your_purchase .error_notification{
+	background:#ffb6b6;
+	padding:5px 10px;
+	color:#cc1d1d;
+font-size:1.2em}
+.confirmation #your_purchase table#subtotal,.gift_cards #your_purchase table#subtotal{
+	font-size:12px;
+width:100%}
+.confirmation #your_purchase table#subtotal p,.confirmation #your_purchase table#subtotal label,.confirmation #your_purchase table#subtotal .field,.gift_cards #your_purchase table#subtotal p,.gift_cards #your_purchase table#subtotal label,.gift_cards #your_purchase table#subtotal .field{
+	font-size:1em;
+	line-height:1.5;
+margin:0}
+.confirmation #your_purchase table#subtotal label,.gift_cards #your_purchase table#subtotal label{
+font-weight:bold}
+.confirmation #your_purchase table#subtotal .description,.confirmation #your_purchase table#subtotal .discount_container,.gift_cards #your_purchase table#subtotal .description,.gift_cards #your_purchase table#subtotal .discount_container{
+text-align:left}
+.confirmation #your_purchase table#subtotal #reward_points_applied,.gift_cards #your_purchase table#subtotal #reward_points_applied{
+margin-left:17px}
+.confirmation #your_purchase table#subtotal tr.line_item,.confirmation #your_purchase table#subtotal tr th,.gift_cards #your_purchase table#subtotal tr.line_item,.gift_cards #your_purchase table#subtotal tr th{
+border-bottom:1px solid #daeaca}
+.confirmation #your_purchase table#subtotal tr.total,.gift_cards #your_purchase table#subtotal tr.total{
+border-top:1px solid #76a045}
+.confirmation #your_purchase table#subtotal tr th,.confirmation #your_purchase table#subtotal tr td,.gift_cards #your_purchase table#subtotal tr th,.gift_cards #your_purchase table#subtotal tr td{
+	padding:10px;
+text-align:center}
+.confirmation #your_purchase table#subtotal tr th.quantity,.confirmation #your_purchase table#subtotal tr td.quantity,.gift_cards #your_purchase table#subtotal tr th.quantity,.gift_cards #your_purchase table#subtotal tr td.quantity{
+width:60px}
+.confirmation #your_purchase table#subtotal tr th.times,.confirmation #your_purchase table#subtotal tr th.equals,.confirmation #your_purchase table#subtotal tr td.times,.confirmation #your_purchase table#subtotal tr td.equals,.gift_cards #your_purchase table#subtotal tr th.times,.gift_cards #your_purchase table#subtotal tr th.equals,.gift_cards #your_purchase table#subtotal tr td.times,.gift_cards #your_purchase table#subtotal tr td.equals{
+	color:#666;
+width:20px}
+.confirmation #your_purchase table#subtotal tr th.total,.confirmation #your_purchase table#subtotal tr td.total,.gift_cards #your_purchase table#subtotal tr th.total,.gift_cards #your_purchase table#subtotal tr td.total{
+	padding-right:20px;
+	text-align:right;
+width:100px}
+.confirmation #your_purchase table#subtotal tr th,.gift_cards #your_purchase table#subtotal tr th{
+	font-weight:bold;
+	padding-bottom:0;
+	padding-top:0;
+vertical-align:bottom}
+.confirmation #your_purchase table#subtotal tr th.total,.gift_cards #your_purchase table#subtotal tr th.total{
+text-indent:0}
+.confirmation #your_purchase table#subtotal tr td,.gift_cards #your_purchase table#subtotal tr td{
+vertical-align:top}
+.confirmation #your_purchase table#subtotal tr td.total,.gift_cards #your_purchase table#subtotal tr td.total{
+	font-size:1.6667em;
+font-weight:bold}
+.confirmation #your_purchase table#subtotal tr.line_item,.confirmation #your_purchase table#subtotal tr.total,.gift_cards #your_purchase table#subtotal tr.line_item,.gift_cards #your_purchase table#subtotal tr.total{
+	font-size:1.5em;
+font-weight:bold}
+.confirmation #your_purchase table#subtotal tr.line_item td.total,.confirmation #your_purchase table#subtotal tr.total td.total,.gift_cards #your_purchase table#subtotal tr.line_item td.total,.gift_cards #your_purchase table#subtotal tr.total td.total{
+font-size:1.1111em}
+.confirmation #your_purchase table#subtotal tr.line_item td.description select,.gift_cards #your_purchase table#subtotal tr.line_item td.description select{
+	border:1px solid #ccc;
+	display:block;
+	font-size:0.8333em;
+	font-weight:bold;
+	line-height:26px;
+	margin-bottom:4px;
+	padding:5px 2px 5px 5px;
+width:100%}
+.confirmation #your_purchase table#subtotal tr.line_item td.description p.icon_gift,.confirmation #your_purchase table#subtotal tr.line_item td.description #gift_details,.gift_cards #your_purchase table#subtotal tr.line_item td.description p.icon_gift,.gift_cards #your_purchase table#subtotal tr.line_item td.description #gift_details{
+font-size:0.65em}
+.confirmation #your_purchase table#subtotal tr.line_item td.quantity input,.gift_cards #your_purchase table#subtotal tr.line_item td.quantity input{
+	float:none;
+margin:0}
+.confirmation #your_purchase table#subtotal tr.line_item td.quantity #order_amount,.gift_cards #your_purchase table#subtotal tr.line_item td.quantity #order_amount{
+	font-size:1em;
+	font-weight:bold;
+text-align:center}
+.confirmation #your_purchase table#subtotal tr.discount_line_item .discount,.gift_cards #your_purchase table#subtotal tr.discount_line_item .discount{
+	display:inline-block;
+	background:no-repeat left center;
+	float:right;
+padding-left:46px}
+.confirmation #your_purchase table#subtotal tr.discount_line_item .discount:after,.gift_cards #your_purchase table#subtotal tr.discount_line_item .discount:after{
+	content:" ";
+	display:block;
+	height:0;
+	clear:both;
+	overflow:hidden;
+visibility:hidden}
+.confirmation #your_purchase table#subtotal tr.discount_line_item .discount,.gift_cards #your_purchase table#subtotal tr.discount_line_item .discount{
+display:block}
+.confirmation #your_purchase table#subtotal tr.discount_line_item .discount .discount_inner,.gift_cards #your_purchase table#subtotal tr.discount_line_item .discount .discount_inner{
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	background:#ddedcc;
+	padding:5px 5px 5px 15px;
+width:260px}
+#reward_offer_confirmation.confirmation #your_purchase table#subtotal tr.discount_line_item .discount .discount_inner,#reward_offer_confirmation.gift_cards #your_purchase table#subtotal tr.discount_line_item .discount .discount_inner{
+width:100px}
+.confirmation #your_purchase table#subtotal tr.discount_line_item .discount .discount_inner .check,.gift_cards #your_purchase table#subtotal tr.discount_line_item .discount .discount_inner .check{
+	display:inline-block;
+overflow:visible}
+.confirmation #your_purchase table#subtotal tr.discount_line_item .discount .discount_inner .check:after,.gift_cards #your_purchase table#subtotal tr.discount_line_item .discount .discount_inner .check:after{
+	content:" ";
+	display:block;
+	height:0;
+	clear:both;
+	overflow:hidden;
+visibility:hidden}
+.confirmation #your_purchase table#subtotal tr.discount_line_item .discount .discount_inner .check,.gift_cards #your_purchase table#subtotal tr.discount_line_item .discount .discount_inner .check{
+display:block}
+.confirmation #your_purchase table#subtotal tr.discount_line_item .discount .discount_inner .check input,.gift_cards #your_purchase table#subtotal tr.discount_line_item .discount .discount_inner .check input{
+margin-top:2px}
+.confirmation #your_purchase table#subtotal tr.discount_line_item.points .discount,.gift_cards #your_purchase table#subtotal tr.discount_line_item.points .discount{
+background-image:url("http://www.groupon.com/images/groupon/icons/icon_groupon_bucks.gif")}
+.confirmation #your_purchase table#subtotal tr.discount_line_item.reward_points .discount,.gift_cards #your_purchase table#subtotal tr.discount_line_item.reward_points .discount{
+	background-image:url("http://www.groupon.com/images/groupon/icons/icon_groupon_rewards_single_gs.gif");
+background-position:5px center}
+.confirmation #your_purchase table#subtotal tr.discount_line_item .notes,.gift_cards #your_purchase table#subtotal tr.discount_line_item .notes{
+	color:#333;
+padding-top:5px}
+body.js_enabled .confirmation #your_purchase table#subtotal tr.discount_line_item .notes,body.js_enabled .gift_cards #your_purchase table#subtotal tr.discount_line_item .notes{
+display:none}
+.confirmation #your_purchase table#subtotal tr.discount_line_item td.total,.gift_cards #your_purchase table#subtotal tr.discount_line_item td.total{
+padding-top:20px}
+.confirmation #your_purchase table#subtotal tr.total td,.gift_cards #your_purchase table#subtotal tr.total td{
+	background:#ddedcc;
+padding-bottom:0}
+.confirmation .checkout .fb_prompt_thanks,.gift_cards .checkout .fb_prompt_thanks{
+	border-bottom:1px solid #daeaca;
+	padding-bottom:10px;
+	font-size:1.2em;
+font-weight:bold}
+.confirmation .checkout .fb_prompt,.gift_cards .checkout .fb_prompt{
+	border-bottom:1px solid #daeaca;
+	padding-bottom:10px;
+font-size:1.2em}
+.confirmation .checkout .fb_prompt .headline,.gift_cards .checkout .fb_prompt .headline{
+	font-size:1.2em;
+	padding-bottom:10px;
+font-weight:bold}
+.confirmation .checkout .fb_prompt span.error,.gift_cards .checkout .fb_prompt span.error{
+color:red}
+.confirmation .checkout .fb_prompt .prompt_label,.confirmation .checkout .fb_prompt .prompt_fields,.gift_cards .checkout .fb_prompt .prompt_label,.gift_cards .checkout .fb_prompt .prompt_fields{
+font-weight:bold}
+.confirmation .checkout .fb_prompt .prompt_fields .FB_ElementReady a,.gift_cards .checkout .fb_prompt .prompt_fields .FB_ElementReady a{
+	font-size:1.2em;
+padding-bottom:10px}
+.confirmation .checkout .fb_prompt .prompt_fields input,.gift_cards .checkout .fb_prompt .prompt_fields input{
+width:200px}
+.confirmation .checkout .fb_prompt .prompt_fields a img.ib,.gift_cards .checkout .fb_prompt .prompt_fields a img.ib{
+	position:relative;
+top:6px}
+.confirmation .checkout .cancel,.gift_cards .checkout .cancel{
+font-size:1.4em}
+.confirmation .error_notification,.gift_cards .error_notification{
+	background:#ffb6b6;
+	padding:5px 10px;
+	color:#cc1d1d;
+font-size:1.2em}
+.confirmation .add_new_card,.gift_cards .add_new_card{
+margin:10px 0 20px 0}
+.confirmation .billing_record_selection,.gift_cards .billing_record_selection{
+border-bottom:1px solid #daeaca}
+.confirmation .billing_record_selection .cc_form,.gift_cards .billing_record_selection .cc_form{
+	padding:0 0 0 20px;
+	margin:0 0 10px 10px;
+border-left:16px solid #E7E7E7}
+.confirmation .billing_record_selection .cc_form h4,.gift_cards .billing_record_selection .cc_form h4{
+	font-size:1.8em;
+padding-bottom:10px}
+.confirmation .billing_record_selection table th,.gift_cards .billing_record_selection table th{
+	font-weight:bold;
+padding:5px 0 3px 0}
+.confirmation .billing_record_selection table tbody tr td .cc_form.active,.gift_cards .billing_record_selection table tbody tr td .cc_form.active{
+	float:left;
+overflow:hidden}
+.confirmation .billing_record_selection table tbody tr td .cc_form.active .cc_form_fields .primary,.gift_cards .billing_record_selection table tbody tr td .cc_form.active .cc_form_fields .primary{
+	float:left;
+	width:299px;
+overflow:hidden}
+.confirmation .billing_record_selection table tbody tr td .cc_form.active .cc_form_fields .primary .field,.confirmation .billing_record_selection table tbody tr td .cc_form.active .cc_form_fields .primary .label,.gift_cards .billing_record_selection table tbody tr td .cc_form.active .cc_form_fields .primary .field,.gift_cards .billing_record_selection table tbody tr td .cc_form.active .cc_form_fields .primary .label{
+width:299px}
+.confirmation .billing_record_selection table tbody tr td .cc_form.active .cc_form_fields .secondary,.gift_cards .billing_record_selection table tbody tr td .cc_form.active .cc_form_fields .secondary{
+	width:269px;
+	float:left;
+	overflow:hidden;
+padding-left:30px}
+.confirmation .billing_record_selection table tbody tr td .cc_form.active .cc_form_fields .secondary .field,.gift_cards .billing_record_selection table tbody tr td .cc_form.active .cc_form_fields .secondary .field{
+width:260px}
+.confirmation .billing_record_selection table tbody tr td .cc_form.active .cc_form_fields .secondary .field input,.confirmation .billing_record_selection table tbody tr td .cc_form.active .cc_form_fields .secondary .field label,.gift_cards .billing_record_selection table tbody tr td .cc_form.active .cc_form_fields .secondary .field input,.gift_cards .billing_record_selection table tbody tr td .cc_form.active .cc_form_fields .secondary .field label{
+width:252px}
+.confirmation .billing_record_selection table tbody tr td .cc_form.active .cc_form_fields .secondary .state_and_zip,.gift_cards .billing_record_selection table tbody tr td .cc_form.active .cc_form_fields .secondary .state_and_zip{
+	float:left;
+	overflow:hidden;
+width:260px}
+.confirmation .billing_record_selection table tbody tr td .cc_form.active .cc_form_fields .secondary .state_and_zip .state,.gift_cards .billing_record_selection table tbody tr td .cc_form.active .cc_form_fields .secondary .state_and_zip .state{
+	float:left;
+	width:150px;
+overflow:hidden}
+.confirmation .billing_record_selection table tbody tr td .cc_form.active .cc_form_fields .secondary .state_and_zip .state .billing_record_country_and_state,.gift_cards .billing_record_selection table tbody tr td .cc_form.active .cc_form_fields .secondary .state_and_zip .state .billing_record_country_and_state{
+	float:left;
+width:150px}
+.confirmation .billing_record_selection table tbody tr td .cc_form.active .cc_form_fields .secondary .state_and_zip .state .billing_record_country_and_state label,.confirmation .billing_record_selection table tbody tr td .cc_form.active .cc_form_fields .secondary .state_and_zip .state .billing_record_country_and_state select,.gift_cards .billing_record_selection table tbody tr td .cc_form.active .cc_form_fields .secondary .state_and_zip .state .billing_record_country_and_state label,.gift_cards .billing_record_selection table tbody tr td .cc_form.active .cc_form_fields .secondary .state_and_zip .state .billing_record_country_and_state select{
+width:150px}
+.confirmation .billing_record_selection table tbody tr td .cc_form.active .cc_form_fields .secondary .state_and_zip .zip,.gift_cards .billing_record_selection table tbody tr td .cc_form.active .cc_form_fields .secondary .state_and_zip .zip{
+	float:left;
+	overflow:hidden;
+width:110px}
+.confirmation .billing_record_selection table tbody tr td .cc_form.active .cc_form_fields .secondary .state_and_zip .zip .billing_record_zip,.gift_cards .billing_record_selection table tbody tr td .cc_form.active .cc_form_fields .secondary .state_and_zip .zip .billing_record_zip{
+width:110px}
+.confirmation .billing_record_selection table tbody tr td .cc_form.active .cc_form_fields .secondary .state_and_zip .zip .billing_record_zip label,.gift_cards .billing_record_selection table tbody tr td .cc_form.active .cc_form_fields .secondary .state_and_zip .zip .billing_record_zip label{
+width:110px}
+.confirmation .billing_record_selection table tbody tr td .cc_form.active .cc_form_fields .secondary .state_and_zip .zip .billing_record_zip #billing_record_zip,.gift_cards .billing_record_selection table tbody tr td .cc_form.active .cc_form_fields .secondary .state_and_zip .zip .billing_record_zip #billing_record_zip{
+width:102px}
+.confirmation .billing_record_selection th,.confirmation .billing_record_selection td,.gift_cards .billing_record_selection th,.gift_cards .billing_record_selection td{
+vertical-align:top}
+.confirmation .billing_record_selection th.card,.confirmation .billing_record_selection td.card,.gift_cards .billing_record_selection th.card,.gift_cards .billing_record_selection td.card{
+	width:270px;
+padding-left:10px}
+.confirmation .billing_record_selection th.number,.confirmation .billing_record_selection td.number,.gift_cards .billing_record_selection th.number,.gift_cards .billing_record_selection td.number{
+width:222px}
+.confirmation .billing_record_selection th.actions,.confirmation .billing_record_selection td.actions,.gift_cards .billing_record_selection th.actions,.gift_cards .billing_record_selection td.actions{
+width:196px}
+.confirmation .billing_record_selection th.actions a,.confirmation .billing_record_selection td.actions a,.gift_cards .billing_record_selection th.actions a,.gift_cards .billing_record_selection td.actions a{
+	float:left;
+width:50%}
+.confirmation .billing_record_selection th.actions a:hover,.confirmation .billing_record_selection td.actions a:hover,.gift_cards .billing_record_selection th.actions a:hover,.gift_cards .billing_record_selection td.actions a:hover{
+text-decoration:underline}
+.confirmation #gift_card_save_action,.confirmation #gift_card_save_and_send_action,.gift_cards #gift_card_save_action,.gift_cards #gift_card_save_and_send_action{
+background:url("http://www.groupon.com/images/groupon/buttons/sprite_save_send.gif") no-repeat}
+.confirmation #gift_card_save_and_send_action,.gift_cards #gift_card_save_and_send_action{
+background-position:0 -30px}
+.dashboard,.forum_links{
+	display:inline;
+	float:left;
+	width:auto;
+	height:30px;
+margin-left:20px}
+.dashboard img,.dashboard span,.forum_links img,.forum_links span{
+	display:inline;
+float:left}
+.dashboard img.chrome,.dashboard span.chrome,.forum_links img.chrome,.forum_links span.chrome{
+	display:inline;
+	float:right;
+margin-left:0}
+.dashboard h4,.forum_links h4{
+	display:inline;
+	float:left;
+	height:23px;
+	padding:5px 10px 0 11px;
+	background:#ddedcc;
+	border-top:2px solid #76a045;
+font-family:Georgia, serif}
+.dashboard ul,.forum_links ul{
+	margin:0;
+	padding:0;
+	border:0;
+	overflow:hidden;
+	display:inline-block;
+	display:inline;
+	float:left;
+	width:auto;
+	height:20px;
+	padding:5px 5px 5px 0;
+	background:#ddedcc;
+border-top:2px solid #76a045}
+.dashboard ul,.forum_links ul{
+display:block}
+.dashboard ul li,.forum_links ul li{
+	list-style-type:none;
+	margin-left:0px;
+	white-space:nowrap;
+	display:inline;
+	float:left;
+	padding-left:0;
+padding-right:0}
+.dashboard ul li.first,.forum_links ul li.first{
+padding-left:0px}
+.dashboard ul li.last,.forum_links ul li.last{
+padding-right:0px}
+.dashboard ul li,.forum_links ul li{
+	padding:0 8px 0 0;
+font-size:1em}
+.dashboard ul li a,.forum_links ul li a{
+	color:black;
+	display:inline;
+float:left}
+.dashboard ul li a:hover,.forum_links ul li a:hover{
+color:#0981be}
+.dashboard ul li a:hover,.forum_links ul li a:hover{
+text-decoration:underline}
+.dashboard ul li a.sprite,.forum_links ul li a.sprite{
+	display:block;
+	background:url(http://www.groupon.com/images/groupon/sprites/share_sprite.png) no-repeat;
+	width:19px;
+	height:19px;
+	margin:1px 0 0;
+text-indent:-9999em}
+.dashboard ul li a.sprite.fb,.forum_links ul li a.sprite.fb{
+background-position:0 -171px}
+.dashboard ul li a.sprite.tw,.forum_links ul li a.sprite.tw{
+background-position:-19px 0}
+.dashboard ul li a.sprite.email,.forum_links ul li a.sprite.email{
+background-position:0 0}
+.dashboard p,.forum_links p{
+	float:left;
+	width:auto;
+	height:20px;
+	padding:8px 0 0 0;
+	font-size:1em;
+	background:#ddedcc;
+border-top:2px solid #76a045}
+.dashboard p a,.forum_links p a{
+color:black}
+.dashboard p a:hover,.forum_links p a:hover{
+color:#0981be}
+.dashboard p a:hover,.forum_links p a:hover{
+text-decoration:underline}
+.dashboard.tabbed,.forum_links.tabbed{
+	z-index:2;
+position:relative}
+.dashboard.tabbed ul,.forum_links.tabbed ul{
+	height:32px;
+	background:none;
+	border:none;
+	padding:0 5px 0 0;
+overflow:none}
+.dashboard.tabbed ul li,.forum_links.tabbed ul li{
+	height:32px;
+	padding:0;
+margin-right:2px}
+.dashboard.tabbed ul li a,.forum_links.tabbed ul li a{
+	line-height:25px;
+	padding-top:3px;
+	border-top:2px solid #76a045;
+	border-bottom:2px solid #76a045;
+	background:#ddedcc;
+font-size:1.2em}
+.dashboard.tabbed ul li .chrome_left,.dashboard.tabbed ul li .chrome_right,.forum_links.tabbed ul li .chrome_left,.forum_links.tabbed ul li .chrome_right{
+	float:left;
+	width:11px;
+height:30px}
+.dashboard.tabbed ul li .chrome_left,.forum_links.tabbed ul li .chrome_left{
+background:url(http://www.groupon.com/images/groupon/corners/tab_gleft.png) no-repeat 0 0}
+.dashboard.tabbed ul li .chrome_right,.forum_links.tabbed ul li .chrome_right{
+background:url(http://www.groupon.com/images/groupon/corners/tab_gright.png) no-repeat 0 0}
+.dashboard.tabbed ul li.current,.forum_links.tabbed ul li.current{
+	background:none;
+border:none}
+.dashboard.tabbed ul li.current .chrome_left,.dashboard.tabbed ul li.current .chrome_right,.forum_links.tabbed ul li.current .chrome_left,.forum_links.tabbed ul li.current .chrome_right{
+height:32px}
+.dashboard.tabbed ul li.current .chrome_left,.forum_links.tabbed ul li.current .chrome_left{
+background:url(http://www.groupon.com/images/groupon/corners/tab_wleft.png) no-repeat 0 0}
+.dashboard.tabbed ul li.current .chrome_right,.forum_links.tabbed ul li.current .chrome_right{
+background:url(http://www.groupon.com/images/groupon/corners/tab_wright.png) no-repeat 0 0}
+.dashboard.tabbed ul li.current a,.forum_links.tabbed ul li.current a{
+	background:white;
+border-bottom:2px solid white}
+.share{
+	display:inline;
+	float:left;
+	width:682px;
+	height:30px;
+margin-left:20px}
+.share img,.share span{
+	display:inline;
+float:left}
+.share img.chrome,.share span.chrome{
+	display:inline;
+	float:right;
+margin-left:0}
+.share h4{
+	display:inline;
+	float:left;
+	height:23px;
+	padding:5px 10px 0 11px;
+	background:#ddedcc;
+	border-top:2px solid #76a045;
+font-family:Georgia, serif}
+.share ul{
+	margin:0;
+	padding:0;
+	border:0;
+	overflow:hidden;
+	display:inline-block;
+	display:inline;
+	float:left;
+	width:auto;
+	height:20px;
+	padding:5px 5px 5px 0;
+	background:#ddedcc;
+border-top:2px solid #76a045}
+.share ul{
+display:block}
+.share ul li{
+	list-style-type:none;
+	margin-left:0px;
+	white-space:nowrap;
+	display:inline;
+	float:left;
+	padding-left:0;
+padding-right:0}
+.share ul li.first{
+padding-left:0px}
+.share ul li.last{
+padding-right:0px}
+.share ul li{
+	padding:0 8px 0 0;
+font-size:1em}
+.share ul li a{
+	color:black;
+	display:inline;
+float:left}
+.share ul li a:hover{
+color:#0981be}
+.share ul li a:hover{
+text-decoration:underline}
+.share ul li a.sprite{
+	display:block;
+	background:url(http://www.groupon.com/images/groupon/sprites/share_sprite.png) no-repeat;
+	width:19px;
+	height:19px;
+	margin:1px 0 0;
+text-indent:-9999em}
+.share ul li a.sprite.fb{
+background-position:0 -171px}
+.share ul li a.sprite.tw{
+background-position:-19px 0}
+.share ul li a.sprite.email{
+background-position:0 0}
+.share p{
+	float:left;
+	width:auto;
+	height:20px;
+	padding:8px 0 0 0;
+	font-size:1em;
+	background:#ddedcc;
+border-top:2px solid #76a045}
+.share p a{
+color:black}
+.share p a:hover{
+color:#0981be}
+.share p a:hover{
+text-decoration:underline}
+.share.tabbed{
+	z-index:2;
+position:relative}
+.share.tabbed ul{
+	height:32px;
+	background:none;
+	border:none;
+	padding:0 5px 0 0;
+overflow:none}
+.share.tabbed ul li{
+	height:32px;
+	padding:0;
+margin-right:2px}
+.share.tabbed ul li a{
+	line-height:25px;
+	padding-top:3px;
+	border-top:2px solid #76a045;
+	border-bottom:2px solid #76a045;
+	background:#ddedcc;
+font-size:1.2em}
+.share.tabbed ul li .chrome_left,.share.tabbed ul li .chrome_right{
+	float:left;
+	width:11px;
+height:30px}
+.share.tabbed ul li .chrome_left{
+background:url(http://www.groupon.com/images/groupon/corners/tab_gleft.png) no-repeat 0 0}
+.share.tabbed ul li .chrome_right{
+background:url(http://www.groupon.com/images/groupon/corners/tab_gright.png) no-repeat 0 0}
+.share.tabbed ul li.current{
+	background:none;
+border:none}
+.share.tabbed ul li.current .chrome_left,.share.tabbed ul li.current .chrome_right{
+height:32px}
+.share.tabbed ul li.current .chrome_left{
+background:url(http://www.groupon.com/images/groupon/corners/tab_wleft.png) no-repeat 0 0}
+.share.tabbed ul li.current .chrome_right{
+background:url(http://www.groupon.com/images/groupon/corners/tab_wright.png) no-repeat 0 0}
+.share.tabbed ul li.current a{
+	background:white;
+border-bottom:2px solid white}
+.deal_summary{
+width:702px}
+.buyable{
+	height:auto !important;
+	min-height:100px;
+height:100px}
+.deal{
+	position:relative;
+	border:2px solid #76a045;
+	padding:25px 10px 0 10px;
+	margin-bottom:20px;
+	background:white;
+clear:both}
+.deal .return_link{
+	font-size:1.4em;
+font-weight:bold}
+.deal h2{
+	font-family:Arial;
+	font-weight:bold;
+	padding:0 50px 20px;
+font-size:3em}
+.deal h2 span{
+	display:inline;
+	float:left;
+	color:#0981be;
+padding-right:10px}
+.deal h2 a{
+color:#333}
+.deal h2 a:hover{
+text-decoration:none}
+.deal .primary{
+	width:220px;
+	display:inline;
+	float:left;
+margin-right:18px}
+.deal .secondary{
+	width:440px;
+float:right}
+.deal .secondary .fine_print,.deal .secondary .highlights{
+	display:inline;
+	float:left;
+padding-top:10px}
+.deal .secondary .fine_print{
+	margin-right:10px;
+	border:none;
+background:none}
+.deal .secondary .highlights{
+	background:none;
+border:none}
+.deal #remaining_time_container,.deal #number_sold_container{
+	width:198px;
+	margin-top:10px;
+	padding:10px;
+	background:#ddedcc;
+border:1px solid #98c267}
+.deal #remaining_time_container{
+	float:left;
+	clear:left;
+height:auto}
+.deal #remaining_time_container ul{
+	display:inline;
+	float:left;
+width:140px}
+.deal #remaining_time_container ul li{
+	font-size:1.4em;
+font-weight:bold}
+.deal #remaining_time_container ul li h5{
+	font-size:1em;
+font-weight:normal}
+.deal #remaining_time_container img{
+	display:inline;
+	float:left;
+margin:10px 15px 0 0}
+.deal #remaining_time_container h5{
+	font-size:1.4em;
+font-family:Arial, sans-serif}
+.deal #number_sold_container{
+	margin-bottom:10px;
+	position:relative;
+	float:left;
+height:auto}
+.deal #number_sold_container img.sold_out,.deal #number_sold_container span.sold_out{
+	position:absolute;
+	top:10px;
+	left:-20px;
+z-index:1}
+.deal #number_sold_container p{
+text-align:center}
+.deal #number_sold_container .tipometer{
+	position:relative;
+	width:198px;
+	height:50px;
+margin:10px 0 5px 0}
+.deal #number_sold_container .tipometer span{
+	position:absolute;
+	top:28px;
+	width:50px;
+	height:18px;
+	font-size:1.8em;
+font-weight:bold}
+.deal #number_sold_container .tipometer span.min{
+	text-align:left;
+left:0}
+.deal #number_sold_container .tipometer span.max{
+	right:0;
+text-align:right}
+.deal #number_sold_container .tipometer .tipping_point{
+	position:absolute;
+	top:0;
+	left:45px;
+	width:14px;
+	height:13px;
+	background:url(http://www.groupon.com/images/groupon/icons/tipometer/tipping_point.gif) no-repeat top left;
+z-index:2}
+.deal #number_sold_container .tipometer .progress_bar{
+	position:absolute;
+	top:15px;
+	float:left;
+	width:198px;
+	background:url(http://www.groupon.com/images/groupon/backgrounds/tipometer_bg.gif) no-repeat top left;
+	height:15px;
+padding:0 2px}
+.deal #number_sold_container .tipometer .progress_bar .pre_tipped{
+	float:left;
+	height:7px;
+	margin-top:2px;
+background:url(http://www.groupon.com/images/groupon/icons/tipometer/pre_tipped.gif) no-repeat top right}
+.deal #number_sold_container .tipometer .progress_bar .pre_tipped.left_end_cap{
+	background:url(http://www.groupon.com/images/groupon/icons/tipometer/not_empty_pre_tipped.gif) no-repeat top left;
+width:4px}
+.deal #number_sold_container .tipometer .progress_bar .post_tipped{
+	float:left;
+	height:7px;
+	margin-top:2px;
+background:url(http://www.groupon.com/images/groupon/icons/tipometer/post_tipped.gif) no-repeat top right}
+.deal #number_sold_container .tipometer .progress_bar .post_tipped.left_end_cap{
+	background:url(http://www.groupon.com/images/groupon/icons/tipometer/not_empty_post_tipped.gif) no-repeat top left;
+width:4px}
+.deal #number_sold_container .tipometer .progress_bar .post_tipped.complete{
+background-position:-7px 0}
+.deal #number_sold_container .tipometer .progress_bar .post_tipped.right_end_cap{
+	background:url(http://www.groupon.com/images/groupon/icons/tipometer/right_end_cap_tipped.gif) no-repeat top right;
+width:4px}
+.deal #number_sold_container .tipometer .progress_bar .tipped{
+	float:left;
+	height:7px;
+	margin-top:2px;
+	background:url(http://www.groupon.com/images/groupon/icons/tipometer/tipped.gif) no-repeat top right;
+overflow:hidden}
+.deal #number_sold_container .tipometer .progress_bar .tipped.full{
+background-position:0 -7px}
+.deal #number_sold_container .tipometer .progress_bar .tipped.right_end_cap{
+	background:url(http://www.groupon.com/images/groupon/icons/tipometer/right_end_cap_tipped.gif) no-repeat top right;
+width:4px}
+.deal #number_sold_container .tipped_check_mark{
+	padding-top:0;
+text-align:center}
+.deal #number_sold_container .tipped_check_mark span,.deal #number_sold_container .tipped_check_mark .status{
+	font-weight:bold;
+font-size:1.6em}
+.deal #number_sold_container .tipped_check_mark span img{
+	position:relative;
+	top:7px;
+left:-9px}
+.deal #number_sold_container .tipped_at p{
+	text-align:center;
+padding-top:5px}
+.deal #number_sold_container table.status{
+	margin:0 auto;
+	font-size:2em;
+	font-weight:bold;
+line-height:1.2em}
+.deal #number_sold_container table.status.sold_out{
+margin-top:100px}
+.deal #number_sold_container table.status tr td.left{
+text-align:right}
+.deal #number_sold_container table.status tr td.right{
+padding-left:10px}
+.deal #number_sold_container table.status tr td.full{
+font-size:0.6em}
+.deal #number_sold_container table.status tr.zero_sum td.full{
+font-size:1em}
+.deal #number_sold_container table.status tr.limited td.full{
+text-align:center}
+.deal #number_sold_container table.status .terms{
+color:#98c267}
+.deal #number_sold_container .tipping{
+	text-align:center;
+font-size:1.2em}
+.deal .primary{
+position:relative}
+.deal .primary .price_tag{
+	position:absolute;
+	top:0;
+	left:-67px;
+	width:240px;
+	height:80px;
+z-index:1}
+.deal .primary #buy,.deal .primary #bought{
+	position:absolute;
+z-index:1}
+.deal .primary #buy{
+	top:6px;
+left:69px}
+.deal .primary #bought{
+	top:26px;
+right:8px}
+.deal .primary .price,.deal .primary .summary{
+	position:absolute;
+	top:17px;
+	left:-15px;
+	z-index:1;
+color:white}
+.deal .primary .price .price_label{
+font-size:1.4em}
+.deal .primary .price .amount{
+font-size:3.2em}
+.deal .primary .price.long{
+top:19px}
+.deal .primary .price.long .amount{
+font-size:2.8em}
+.deal .primary .summary{
+	font-size:1.4em;
+	width:60px;
+	margin-top:3px;
+background:url(http://www.groupon.com/images/groupon/icons/pipe.gif) no-repeat top right}
+.deal .primary .unavailable_deal_message,.deal .primary .order_fulfilled_message{
+	position:absolute;
+	left:69px;
+	z-index:1;
+	color:white;
+margin-right:10px}
+.deal .primary .unavailable_deal_message{
+	background:url(http://www.groupon.com/images/groupon/buttons/disabled.png) no-repeat left top;
+	color:#c8e4eb;
+	font-size:2em;
+	font-weight:bold;
+	height:44px;
+	line-height:1;
+	padding:23px 10px 0;
+	text-align:center;
+	text-shadow:0 -1px 1px rgba(0, 0, 0, .2);
+	top:6px;
+width:124px}
+.deal .primary .unavailable_deal_message.expired{
+	font-size:1.8em;
+	height:51px;
+padding-top:16px}
+.deal .primary .order_fulfilled_message{
+	top:10px;
+font-size:1.4em}
+.deal .primary .buy{
+	height:auto;
+	border:1px solid #7accf6;
+	border-top:none;
+	background:#cfeef6;
+padding:90px 0 5px}
+.deal .primary .buy .value{
+	overflow:hidden;
+	width:198px;
+	padding:0 10px;
+margin-bottom:10px}
+.deal .primary .buy .value dl{
+	display:inline;
+	float:left;
+	width:61px;
+	font-weight:bold;
+text-align:center}
+.deal .primary .buy .value dl dt,.deal .primary .buy .value dl dd{
+text-align:center}
+.deal .primary .buy .value dl dt{
+font-size:1.2em}
+.deal .primary .buy .value dl dd{
+	font-size:1.8em;
+line-height:1em}
+.deal .primary .buy .value dl.discount{
+width:76px}
+.deal .primary .buy .for_a_friend{
+	border-top:1px solid #7accf6;
+	padding:5px 0 0 0;
+position:relative}
+.deal .primary .buy .for_a_friend span{
+	font-weight:bold;
+font-size:14px}
+.deal .photos{
+	width:440px;
+height:auto}
+.deal .fine_print,.deal .highlights{
+	height:auto;
+	background:#eae8e3;
+padding:10px}
+.deal .fine_print h3,.deal .highlights h3{
+padding-bottom:3px}
+.deal .fine_print{
+width:198px}
+.deal .highlights{
+width:188px}
+.deal .highlights ul{
+	padding-left:15px;
+	list-style-type:disc;
+list-style-position:outside}.deal .highlights ul li em{font-style:italic}.deals .follow form{float:left}

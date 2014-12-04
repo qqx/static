@@ -1,0 +1,166 @@
+/* Add here all your css styles (customizations) */
+.need_shop_admin,.need_user,.need_not_user,.need_login,.need_logout {display:none;}
+.loginbar a.dropdown-toggle:after{content:""}
+.header .open > .extra-dropdown-menu, .header-v1 .open > .extra-dropdown-menu{display: block;}
+
+
+#categories_tabs .nav-pills > li > a {font-size: 15px;font-weight: bold;}
+
+#categories_tabs .nav-pills > li.active > a, #categories_tabs .nav-pills > li.active > a:hover,  #categories_tabs .nav-pills > li.active > a:focus {
+    background-color: #eeeeee;
+    color: #72c02c;
+}
+
+#categories_tabs .thumbnail h3 a, #categories_tabs .thumbnail-style h3 a {font-size: 14px;}
+
+i.design-help{cursor: pointer; cursor: hand;padding: 0 5px;font-size:15px;}
+
+
+.simple-breadcrumbs{border-bottom:1px solid #f3f3f3;}
+td.icon_cell{width:1em;}
+
+
+
+.item-actions {
+    display: none;
+    height: 45px;
+    opacity: 0.99;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    width: 150px;
+    z-index: 99;
+}
+
+
+.item-actions .rounded-x {
+    display: block;
+    float: right;
+    margin: 5px 6px 0 0;
+    opacity: 0.99;
+    position: relative;
+    z-index: 100;
+    background-color: white;
+    color:black;
+    border: 1px solid #eee;
+    padding:8px 4px;
+}
+
+.item-actions  a.badge:hover, .item-actions a.badge:focus {
+    color: #39c;
+}
+
+.item-actions .fa-plus:before {
+	padding:0 2px;
+}
+
+.grid-boxes-in:hover .item-actions, .touch .item-actions {
+    display: block;
+}
+
+
+.grid-boxes-caption h3{
+	overflow:hidden;
+}
+.blog_masonry_3col .item  .grid-boxes-caption {
+ padding: 0 10px !important;
+}
+.blog_masonry_3col .item  ul.grid-boxes-news{
+margin-bottom:5px !important;
+}
+.mask .actions{
+	position:absolute;
+	bottom:5px;
+	left:10px;
+}
+
+
+.blog_masonry_3col ul.attrs li, .blog_masonry_3col ul.attrs li a {
+    color: #aaa;
+}
+h3.popover-title{
+	font-size:14px;
+	font-weight:400;
+	line-height:18px;
+	max-height:28px;
+	overflow:hidden;
+}
+
+.item-actions a.badge.btn-favorite:hover{color:red;}
+.item-actions .btn-favorite.is-favorite{color:red;}
+.item-actions a.badge.btn-favorite.is-favorite:hover{color:#39c;}
+
+
+.item-list .list-item{cursor: pointer; cursor: hand;}
+.item-list .list-item.is-in-list{background-color:#dfd;}
+.item-list .list-item img{width:20px;}
+
+
+div.action-popover-share{
+    width:120px;
+}
+div.action-popover-collect{
+    width:300px;
+}
+
+ .popover-share .btn {
+    margin-bottom: 10px;
+    padding:0 10px;
+}
+
+.btn-googleplus {
+  background-color: transparent;
+  border-color: #dd4a38;
+  color: #dd4a38; }
+  .btn-googleplus:hover {
+    background-color: #dd4a38;
+    color: white; }
+
+.btn-pinterest {
+  background-color: transparent;
+  border-color: #c91618;
+  color: #c91618; }
+  .btn-pinterest:hover {
+    background-color: #c91618;
+    color: white; }
+
+.btn-facebook {
+  background-color: transparent;
+  border-color: #4863ae;
+  color: #4863ae; }
+  .btn-facebook:hover {
+    background-color: #4863ae;
+    color: white; }
+
+.btn-tumblr {
+  background-color: transparent;
+  border-color: #374a61;
+  color: #374a61; }
+  .btn-tumblr:hover {
+    background-color: #374a61;
+    color: white; }
+
+.btn-twitter {
+  background-color: transparent;
+  border-color: #46c0fb;
+  color: #46c0fb; }
+  .btn-twitter:hover {
+    background-color: #46c0fb;
+    color: white; }
+
+
+.btn-u.btn-u-dark {
+color:#fff
+}
+
+
+.view-tenth h4{
+margin-top:40px;
+}
+#design-contents .view-tenth:hover img {
+   -webkit-transform: scale(1.2) rotate(0deg);
+   -moz-transform: scale(1.2) rotate(0deg);
+   -o-transform: scale(1.2) rotate(0deg);
+   -ms-transform: scale(1.2) rotate(0deg);
+   transform: scale(1.2) rotate(0deg);
+}

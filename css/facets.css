@@ -1,0 +1,2487 @@
+/*
+  IE6:
+   - don't known some colors (lightgray)
+   - no virtual attributes (before/after)
+   - border-width=thin is 2pixel
+  Firefox 1.5
+   - border-width=thins is 1pixel
+*/ /*
+  Style for the table
+*/
+table.gui_table {
+	border: 2px groove #808080;
+}
+
+/*
+  Used for formatting the table title
+*/
+tr.gui_table_title td {
+	font-style: italic;
+	font-weight: bolder;
+}
+
+tr.gui_table_title {
+	background-color: #E0E0E0;
+}
+
+/*
+  Used for formatting the action area on top of the table
+*/
+tr.gui_table_topaction td {
+	
+}
+
+/*
+  Used for formatting the action area on bottom of the table
+*/
+tr.gui_table_bottomaction td {
+	
+}
+
+/*
+  Formats the header line if the table
+*/
+tr.gui_table_headers {
+	background-color: #d3f3d3;
+}
+
+/*
+  Formats each header cell if the table
+*/
+tr.gui_table_headers th {
+	border: 1px solid #808080;
+	text-align: left;
+	font-weight: bold;
+	padding-right: 10px;
+}
+
+.gui_table_sortingheader {
+	width: 100%;
+	position: relative;
+	padding-right: 20px;
+}
+
+/*
+  Style for normal sorting actions
+*/
+.gui_table_sorting {
+	font-family: "Arial Unicode MS", Arial, sans-serif;
+	font-weight: normal;
+	text-decoration: none;
+	width: 15px;
+	height: 14px;
+	display: block;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	background:
+		url(img/updown.png)
+		no-repeat right 6px;
+	right: 0px;
+}
+
+/*
+  Style for selected sorting actions
+*/
+.gui_table_sorting_selected_down {
+	font-family: "Arial Unicode MS", Arial, sans-serif;
+	color: red;
+	font-weight: normal;
+	width: 15px;
+	height: 14px;
+	display: block;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	background:
+		url(img/down.png)
+		no-repeat right 6px;
+}
+
+/*
+  Style for normal sorting actions
+*/
+.gui_table_sorting_selected_up {
+	font-family: "Arial Unicode MS", Arial, sans-serif;
+	font-weight: normal;
+	text-decoration: none;
+	width: 15px;
+	height: 14px;
+	display: block;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	background:
+		url(img/up.png)
+		no-repeat right 6px;
+	display: block;
+}
+
+/*
+  Formats each even row of the table
+*/
+div.gui_table_cells {
+	background-color: #e3e3e3;
+}
+
+/*
+  Formats each odd row of the table
+*/
+div.gui_table_cells2 {
+	background-color: #f3f3f3;
+}
+
+div.gui_tree {
+	position: relative;
+	top: 0px;
+	width: 100%;
+}
+
+.gui_table_open {
+	position: absolute;
+	left: -11px;
+	top: 1px;
+}
+
+/*
+  Format for the titlegroup
+*/
+.gui_tg {
+	margin: 5px;
+	width: 100%;
+}
+
+/*
+  Used for formatting the table title
+*/
+.gui_tg_title {
+	font-style: italic;
+	font-weight: bolder;
+	text-align: left;
+	border-bottom: 1px solid #808080;
+	background-color: #E0E0E0;
+}
+
+.gui_tg_title_collapsed {
+	font-style: italic;
+	font-weight: bolder;
+	text-align: left;
+	background-color: #E0E0E0;
+}
+
+/*
+  The content of the title group.
+*/
+.gui_tg_content {
+	
+}
+
+/*
+  The title group bottom action
+*/
+.gui_tg_bottomaction {
+	border-top: 1px solid #808080;
+}
+
+/*
+  Format for the labelgroup
+*/
+table.gui_lb {
+	border: 2px groove #808080;
+}
+
+.gui_lg {
+	
+}
+
+/*
+  Used for formatting the table title
+*/
+tr.gui_lg_title th {
+	font-style: italic;
+	font-weight: bolder;
+	text-align: left;
+	border-bottom: 1px solid #808080;
+}
+
+tr.gui_lg_title th:before {
+	content: ":::"
+}
+
+tr.gui_lg_title th:after {
+	content: ":::"
+}
+
+/*
+Formating a single label
+*/
+td.gui_lg_label {
+	font-weight: bold;
+}
+
+/*
+ Format the tabbed pane
+*/
+div.gui_tabbedpane { /*	border: 2px groove #808080;*/
+	width: auto;
+}
+
+div.gui_tabbedpane_title td:before {
+	content: ":::"
+}
+
+div.gui_tabbedpane_title td:after {
+	content: ":::"
+}
+
+/*
+  Used for formatting the tabbed pane title
+*/
+div.gui_tabbedpane_title {
+	font-style: italic;
+	font-weight: bolder;
+	text-align: left;
+	border-bottom: 1px solid #808080;
+}
+
+div.gui_tabbedpane_tabs {
+	background: transparent;
+	border: 0px none;
+	border-bottom: 0px none;
+}
+
+/*
+the selected tab is rendered
+*/
+.gui_tabbedpane_tab_sel {
+	background: #D3F3D3;
+	border: 1px solid black;
+	border-bottom: 1px solid #D3F3D3;
+	padding: 0px;
+	margin: 0px;
+}
+
+.gui_table_scroll {
+	background: #FFFFFF;
+	color: #808080;
+	border: 0px none;
+	display: inline;
+}
+
+.gui_table_scroll_cur {
+	background: #FFFFFF;
+	border: 0px none;
+	display: inline;
+	padding: 2px;
+}
+
+/*
+an non-selected tab is rendered
+*/
+.gui_tabbedpane_tab_std {
+	background: #E0E0E0;
+	color: #808080;
+	border: 1px solid #E0E0E0;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*
+  Used for formatting the content area on bottom of the tabbed pane
+*/
+.gui_tabbedpane_content {
+	border: 1px solid #808080;
+	padding: 5px;
+	width: 100%;
+}
+
+/*
+  Used for formatting the action area on bottom of the tabbed pane
+*/
+div.gui_tabbedpane_bottomaction {
+	
+}
+
+/*
+  Marker for error texts.
+*/
+div.error {
+	color: red;
+}
+
+/*
+  Structural layout for SplitPane
+ */
+.gui_splitpane_first_horz {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 200px; /* see .gui_splitpane_splitter_horz#left */
+	bottom: 0px;
+	overflow: hidden;
+}
+
+.gui_splitpane_splitter_horz {
+	top: 0px;
+	left: 200px; /* see .gui_splitpane_first_horz#width */
+	bottom: 0px;
+	background-color: #ccc;
+	cursor: e-resize;
+	overflow: hidden;
+	height: 100%; /*IE6*/
+	width: 5px; /*IE6*/
+}
+
+.gui_splitpane_splitter_horz .gui_splitpane_splitter_open {
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.gui_splitpane_splitter_horz .gui_splitpane_splitter_closed {
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.gui_splitpane_second_horz {
+	position: absolute;
+	top: 0px;
+	left: 205px;
+	/* see .gui_splitpane_splitter_horz#left + .gui_splitpane_first_horz#width */
+	right: 0px;
+	bottom: 0px;
+	overflow: visible;
+	height: 100%;
+}
+
+.gui_splitpane_first_vert {
+	top: 0px;
+	left: 0px;
+	height: 200px; /* see .gui_splitpane_splitter_vert#left */
+	right: 0px;
+	overflow: hidden;
+	width: 100%; /*IE6*/
+}
+
+.gui_splitpane_splitter_vert {
+	left: 0px;
+	top: 200px; /* see .gui_splitpane_first_vert#width */
+	right: 0px;
+	background-color: #ccc;
+	cursor: s-resize;
+	overflow: hidden;
+	width: 100%; /*IE6*/
+	height: 5px; /*IE6*/
+}
+
+.gui_splitpane_second_vert {
+	left: 0px;
+	top: 205px;
+	/* see .gui_splitpane_splitter_vert#left + .gui_splitpane_first_vert#width */
+	right: 0px;
+	bottom: 0px;
+	overflow: hidden;
+	width: 100%; /*IE6*/
+}
+
+.gui_splitpane_splitter_vert .gui_splitpane_splitter_first_open,.gui_splitpane_splitter_vert .gui_splitpane_splitter_second_open,.gui_splitpane_splitter_vert .gui_splitpane_splitter_first_closed,.gui_splitpane_splitter_vert .gui_splitpane_splitter_second_closed,.gui_splitpane_splitter_horz .gui_splitpane_splitter_first_open,.gui_splitpane_splitter_horz .gui_splitpane_splitter_second_open,.gui_splitpane_splitter_horz .gui_splitpane_splitter_first_closed,.gui_splitpane_splitter_horz .gui_splitpane_splitter_second_closed
+	{
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.gui_mouseover_p {
+	display: inline;
+}
+
+.gui_mouseover_h {
+	display: inline;
+}
+
+.gui_mouseover_t {
+	display: none;
+}
+
+.gui_mouseover_v {
+	display: block;
+	position: absolute;
+	border: 1px solid black;
+	width: auto;
+	height: auto;
+}
+
+.gui_breakout_no {
+	overflow: visible;
+	padding: 1px 3px 1px 3px;
+	zoom: 1;
+}
+
+.gui_breakout_yes {
+	border: 1px solid black;
+	overflow: visible;
+	padding: 0px 2px 0px 2px;
+	z-index: 5;
+	zoom: 1;
+}
+
+.gui_breakout_ext {
+	background: white;
+}
+
+.gui_textinput {
+	border: 1px solid black;
+	padding: 0px;
+	margin: 0px;
+}
+
+.gui_button {
+	background: #D3F3D3;
+	border: 1px outset black;
+	padding: 2px;
+	margin: 1px;
+}
+
+.gui_querySuggestWindow {
+	display: block;
+	position: absolute;
+	border: 1px solid black;
+	background: white;
+	width: auto;
+	height: auto;
+	padding: 2px;
+	white-space: nowrap;
+}
+
+.gui_list_selected {
+	background-color: #f0f0f0; /*#D3F3D3; on demand of MRA*/
+}
+
+.gui_menuWindow {
+	position: absolute;
+	width: auto;
+	height: auto;
+	border: 1px solid black;
+	background: white;
+	white-space: nowrap;
+	padding: 4px;
+}
+
+.collapsed .gui_treeButton {
+	font-family: "Arial Unicode MS", Arial, sans-serif;
+	display: inline;
+	position: static;
+	font-size: 11px;
+	line-height: 14px;
+	margin: 5px 4px 0px 0px;
+	background:
+		url(img/minus.gif)
+		no-repeat right 2px;
+}
+
+.gui_treeButton {
+	font-family: "Arial Unicode MS", Arial, sans-serif;
+	display: inline;
+	position: static;
+	line-height: 14px;
+	font-size: 11px;
+	margin: 5px 4px 0px 0px;
+	background:
+		url(img/plus.gif)
+		no-repeat right 2px;
+}
+
+.gui_treeButtonLeaf {
+	vertical-align: top;
+	font-family: "Arial Unicode MS", Arial, sans-serif;
+	display: inline;
+	position: static;
+	line-height: 14px;
+	font-size: 11px;
+	margin: 5px 4px 0px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ensure usage of border-box model (i.e. width = content + padding + border) */
+.xxxx {
+	-moz-box-sizing: border-box; /* Gecko */
+	-webkit-box-sizing: border-box; /* Webkit: Safari etc. */
+	box-sizing: border-box; /* IE7+, Opera */
+}
+
+/* scrollbars
+html, body, textarea, div {
+  scrollbar-base-color:#8C8CC6;
+  scrollbar-3d-light-color:#FFFFFF;
+  scrollbar-arrow-color:#FFFFFF;
+  scrollbar-darkshadow-color:#000000;
+  scrollbar-face-color:#8C8CC6;
+  scrollbar-highlight-color:#FFFFFF;
+  scrollbar-shadow-color:#000000;
+  scrollbar-track-color:#ACACE6;
+}
+*/
+html {
+	overflow: hidden;
+}
+
+td {
+	padding: 0px;
+}
+
+/* hasLayoutBug IE7 */
+.Documents,.lefttreeContent {
+	zoom: 1;
+}
+
+.li {
+	background: no-repeat 10px 5px
+		url(../../../../../../../com/transinsight/webapp/main/layout/listitem.png)
+		;
+	padding-left: 23px;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	left: 0px;
+	top: 0px;
+	height: 100%;
+	width: 100%;
+	display: block;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 9pt;
+	overflow: hidden;
+	position: absolute;
+}
+
+button {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 9pt;
+}
+
+iframe {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border: none;
+	margin: 0 0 0 0;
+	padding: 0px;
+}
+
+.IFrameContainer {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+	right: 0px;
+	border: none;
+	margin: 0 0 0 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.gui_tree {
+	display: block;
+	position: relative;
+	white-space: nowrap;
+	padding: 0px 1px;
+	height: 17px;
+}
+
+form {
+	display: inline;
+}
+
+.ajaxcomponent {
+	position: static;
+	/*position: __ do not specify any specific positions here, or use position:static; __ */
+}
+
+.DocumentFeatures {
+	display: block;
+	/*position: absolute;*/
+	position: relative;
+	float: left;
+	width: 40px;
+	top: 0px;
+	left: 0px;
+	overflow: hidden;
+	margin-top: 8px;
+}
+
+.DocumentFeatureImg {
+	width: 24px;
+	height: 24px;
+}
+
+.gui_splitpane {
+	background-color: white;
+	/* IE: otherwise the mouse-move events are ignored */
+	z-index: 0; /* Otherwise z-index: -x don't work in opera */
+}
+
+.gui_splitpane_first_horz {
+	top: 0px;
+	/*left: 0px;*/ /*width: 270px; /* see .gui_splitpane_splitter#left */
+	bottom: 0px;
+}
+
+.gui_splitpane_splitter_horz {
+	top: 0px;
+	/*left: 270px; /* see .gui_splitpane_first_horz#width */
+	/*width: 5px;*/
+	bottom: 0px;
+	background: #fbfbfb;
+	cursor: e-resize;
+	z-index: 0;
+}
+
+.gui_splitpane_second_horz {
+	top: 0px;
+	/*left: 275px;*/
+	/* see .gui_splitpane_splitter#left + .gui_splitpane_first_horz#width */
+	/*right: 0px;*/
+	bottom: 0px;
+}
+
+.lefttree {
+	display: block;
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+	top: 0px;
+	bottom: 0px;
+	overflow: auto;
+}
+
+.AdminPage {
+	overflow: auto;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: 0px;
+}
+
+.rightContentPostitioning {
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+	background: #ffffff
+		url(img/frameBorderLeft.png)
+		repeat-y 3px 0px;
+}
+
+.lefttreeContent {
+	position: relative;
+	width: auto;
+	height: auto;
+	margin: 0px;
+	padding: 0px;
+}
+
+.treeTable {
+	position: relative;
+	width: auto;
+	height: auto;
+	width: auto;
+	margin: 7px 5px 0px 5px;
+}
+
+.leftTreeTable {
+	position: relative;
+	width: auto;
+	height: auto;
+	width: auto;
+	margin: 0px 5px 0px 5px;
+}
+
+.MultiLinks {
+	display: block;
+	float: none;
+	white-space: nowrap;
+	margin-left: 63px;
+	overflow: hidden;
+}
+
+.YggLink {
+	color: #999999;
+	text-decoration: underline;
+}
+
+.MultiLinkSeperator {
+	display: inline;
+	width: 10px;
+	padding-left: 10px;
+}
+
+.searchform {
+	display: block;
+	position: relative;
+	width: 100%;
+	top: 5px;
+}
+
+.searchformLayout {
+	position: relative;
+	/*keep this absolute to enclose all children, otherwise the dimension will be 0,0 */
+	/*position: static; /*can be used to allow popup menus to be placed inside (in conjunction with z-index, min-height, min-width) */
+	overflow: hidden;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 35px;
+	margin: 0px 0px 0px 26px;
+	/* padding-left same as left of .SearchInput */
+	background: transparent
+		url(img/searchHeadline.png)
+		no-repeat left 4px;
+}
+
+div.SpellingSuggestions {
+	font-size: 13px;
+	font-weight: bold;
+	color: #DBA400; /*see also .selectedTerm */
+}
+
+a.SpellingSuggestions {
+	color: inherit;
+}
+
+a.SpellingSuggestions:hover {
+	text-decoration: underline;
+}
+
+.gui_tree .gui_textinput {
+	position: relative;
+	top: -1px;
+	left: 2px;
+}
+
+.FilterButton {
+	vertical-align: top;
+	position: relative;
+	top: -4px;
+	border: 0px;
+	margin: 0px;
+}
+
+.FindItButton {
+	position: absolute;
+	top: 6px;
+	right: 15px;
+	width: 88px; /*see also right value of .SearchInputContainer */
+	height: 26px;
+}
+
+.SearchFieldOperator {
+	position: absolute;
+	top: 7px;
+	right: 106px;
+	width: 20px;
+}
+
+#ClearButton {
+	background: transparent
+		url("img/searchform/clearQuery.png")
+		no-repeat top left;
+	width: 20px;
+	height: 21px;
+	border: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+.SearchInputContainer {
+	position: absolute;
+	display: block;
+	top: 7px;
+	left: 35px; /* same as padding-left of .searchformLayout */
+	bottom: 0px;
+	right: 132px; /*find-It width + Operator Width*/
+}
+
+.SearchInputContainer .gui_textinput {
+	background: #FFFFFF none repeat scroll 0 0;
+	border: 1px inset #BBBBBB;
+	color: #000000;
+	font-size: 11pt;
+	width: 100%;
+}
+
+.VisualBar {
+	display: block;
+	background: #ccc;
+	color: #888;
+	height: 10px;
+	font-size: 5px;
+}
+
+.SearchContent {
+	position: absolute;
+	top: 100px;
+	left: 0px;
+	bottom: 0px;
+	right: 0px;
+	margin: 0px 0px 0px 22px;
+}
+
+.gui_ti_tabbedpane_tabs {
+	color: #999999;
+	font-size: 15px;
+	font-weight: bold;
+	z-index: 1;
+	position: relative;
+	top: 2px;
+	width: auto;
+}
+
+.rightContentPostitioning .gui_ti_tabbedpane_content {
+	padding-top: 23px;
+}
+
+#allTooltips .gui_ti_tabbedpane_content {
+	background: white;
+	border: 1px #A0A0A0;
+	border-style: outset;
+	padding: 4px;
+}
+
+.rightContentPostitioning .gui_ti_tabbedpane_content {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+	right: 0px;
+}
+
+.gui_tabbedpane_tabs {
+	white-space: nowrap;
+}
+
+.gui_ti_tabbedpane_tabs a {
+	font-size: 10pt;
+	font-weight: 600;
+	font-style: normal;
+	padding: 4px;
+	padding-bottom: 8px;
+	position: relative;
+	top: 4px;
+}
+
+.gui_ti_tabbedpane_tab_sel {
+	color: #757575;
+}
+
+.gui_ti_tabbedpane_tab_std {
+	color: #858585;
+}
+
+.rightContentPostitioning .gui_ti_tabbedpane {
+	margin: 0;
+	border: 0;
+	padding: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+
+.SearchResultToolbar {
+	position: relative;
+	height: 20px;
+}
+
+.SearchResultBar {
+	position: relative;
+}
+
+.SearchResultPage {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin-top: 0px;
+	/* see also height of .QueryDescription + height of .SearchResultToolbar */
+	overflow: auto;
+}
+
+.gui_ti_tabbedpane {
+	min-width: 500px;
+}
+
+.AdminPage .gui_ti_tabbedpane_content {
+	padding-top: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	overflow: scroll;
+	margin-top: 43px;
+}
+
+.TreeWaitPage {
+	font-weight: bold;
+	font-size: 12pt;
+	text-align: center;
+	color: #B4B4B4;
+	position: relative;
+	top: 100px;
+	padding-top: 20px;
+}
+
+/*.lefttree .gui_tg_title,.lefttree .gui_tg_title_collapsed,.Supported .gui_tg_title,.Supported .gui_tg_title_collapsed,.Statistics .gui_tg_title,.Statistics .gui_tg_title_collapsed,.AdminPage .gui_tg_title,.AdminPage .gui_tg_title_collapsed,.Documents .gui_tg_title,.Documents .gui_tg_title_collapsed,.DocumentList .gui_list_scroller */
+.gui_list_scroller,.gui_tg_title,.gui_tg_title_collapsed {
+	width: auto;
+	height: 31px;
+	overflow: hidden;
+	color: #858585;
+	font-size: 12pt;
+	font-weight: bold;
+	font-style: normal;
+	letter-spacing: 0.2em;
+	vertical-align: bottom;
+	white-space: nowrap;
+	background:
+		url(img/headlineBackground.png)
+		repeat-x scroll left 21px;
+	border: none;
+	display: block;
+	position: relative;
+	margin: 0px 0px 0px 0px;
+	padding: 6px 25px 0px 25px;
+	overflow: visible;
+	cursor: pointer;
+}
+
+.DocumentList .gui_list_scroller {
+	background-position: left 19px;
+	height: 30px;
+	font-size: 7pt;
+}
+
+.ti_titlegroup_button {
+	position: absolute;
+	top: 6px;
+	right: 10px;
+}
+
+.gui_tg {
+	position: relative;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	height: auto;
+	width: 100%;
+}
+
+.collapsed .gui_tg_title {
+
+}
+
+.collapsed .gui_tg_title_arrows,.gui_tg_title_arrows {
+/***	background: none;***/
+	border: none;
+	padding: 0px;
+	margin: 0px;
+	display: inline;
+	position: absolute;
+	right: 10px;
+	top: 12px;
+	width: 10px;
+	height: 20px;
+	background-color: white;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+
+.ti_titlegroup_titleButton {
+	background: none;
+	border: none;
+	padding: 0px;
+	display: block;
+	position: relative;
+	width: 100%;
+	overflow: visible;
+}
+
+.gui_tg_content {
+	margin-top: 5px;
+	margin-bottom: 3px;
+}
+
+.collapsed .gui_tg_content{
+	display:none;
+}
+
+.gui_tg_title_arrows {
+	background-image:
+		url('img/upArrows.png')
+		;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+a:hover .gui_tg_title,a:hover .gui_tg_title_collapsed {
+	color: #7d9f17;
+}
+
+a:hover .gui_tg_title_arrows {
+	background-image:
+		url('img/upArrowsHover.png')
+		;
+}
+
+.collapsed .gui_tg_title_arrows {
+	background-image:
+		url('img/downArrows.png')
+		;
+}
+
+button:hover  .gui_tg_title_collapsed_arrows {
+	background-image:
+		url('img/downArrowsHover.png')
+		;
+}
+
+.gui_tg_title_separator {
+	background:
+		url('img/headlineArrow.png')
+		no-repeat 5px 0px;
+	height: 10px;
+	width: 16px;
+	top: 29px;
+	position: absolute;
+	left: 1px;
+}
+
+.gui_tg_title_separator_collapsed {
+	background:
+		url('img/headlineArrow.png')
+		no-repeat 5px 0px;
+	height: 10px;
+	width: 16px;
+	top: 30px;
+	position: absolute;
+	left: 0px;
+}
+
+.gui_tg_bottomseparator {
+	/*background: transparent url('img/categoryDivider.png') repeat-x 0 0;
+	 height: 8px;
+	*/
+	position: relative;
+	border-bottom: 1px solid #dadada;
+	margin: 0px 1px 0px 1px;
+}
+
+.gui_ti_tabbedpane_tabRowDecoratorTop {
+	
+}
+
+div.gui_ti_tabbedpane_tabs {
+	background: transparent;
+	display: block;
+	overflow: hidden; /*not to break the floating tab-riders*/
+	height: 23px;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	margin-left: 15px;
+	white-space: nowrap;
+	vertical-align: top;
+}
+
+.TabSelectedLeft,.TabUnselectedSelectedSeparator,.TabUnselectedLeft,.TabSelectedUnselectedSeparator,.TabUnselectedUnselectedSeparator,.TabSelectedRight,.TabUnselectedRight,.gui_ti_tabbedpane_tab_sel,.gui_ti_tabbedpane_tab_std
+	{
+	margin: 0;
+	border: 0;
+	padding: 0;
+	vertical-align: top;
+}
+
+.gui_ti_tabbedpane_tab_sel {
+	display: inline;
+	position: relative;
+	border: none;
+	margin: 0px;
+	padding: 0px;
+	height: 23px;
+}
+
+.gui_ti_tabbedpane_tab_std {
+	display: inline;
+	position: relative;
+	border: none;
+	margin: 0px;
+	padding: 0px;
+	height: 23px;
+}
+
+.FloatTerminator {
+	clear: both;
+}
+
+.gui_ti_tabbedpane_tabs .gui_ti_tabbedpane_tab_sel {
+	background: transparent
+		url("img/tabs/tabBackgroundSelected.gif")
+		repeat-x 0 0;
+	height: 23px;
+}
+
+.gui_ti_tabbedpane_tabs .gui_ti_tabbedpane_tab_std {
+	background: transparent
+		url("img/tabs/tabBackground.gif")
+		repeat-x 0 0;
+	height: 23px;
+}
+
+.gui_ti_tabbedpane_tabs .TabSelectedLeft,.gui_ti_tabbedpane_tabs  .TabUnselectedLeft,.gui_ti_tabbedpane_tabs .TabSelectedUnselectedSeparator,.gui_ti_tabbedpane_tabs .TabUnselectedSelectedSeparator,.gui_ti_tabbedpane_tabs .TabUnselectedUnselectedSeparator,.gui_ti_tabbedpane_tabs .TabSelectedRight,.gui_ti_tabbedpane_tabs .TabUnselectedRight
+	{
+	font-size: 10pt;
+	font-weight: 600;
+	font-style: normal;
+	background: transparent;
+	padding-top: 4px;
+	padding-bottom: 8px;
+	top: 4px;
+	overflow: hidden;
+	font-family: "Arial Unicode MS", Arial, sans-serif;
+	display: inline;
+	position: relative;
+	overflow: hidden;
+}
+
+.gui_ti_tabbedpane_tabs .TabSelectedLeft {
+	background:
+		url("img/tabs/tabEdges.png")
+		no-repeat -15px 0px;
+	padding-right: 12px;
+}
+
+.gui_ti_tabbedpane_tabs  .TabUnselectedLeft {
+	background:
+		url("img/tabs/tabEdges.png")
+		no-repeat 0px 0px;
+	padding-right: 12px;
+}
+
+.gui_ti_tabbedpane_tabs .TabSelectedUnselectedSeparator {
+	background:
+		url("img/tabs/tabEdges.png")
+		no-repeat -117px 0px;
+	padding-right: 17px;
+}
+
+.gui_ti_tabbedpane_tabs .TabUnselectedSelectedSeparator {
+	background:
+		url("img/tabs/tabEdges.png")
+		no-repeat -61px 0px;
+	padding-right: 17px;
+}
+
+.gui_ti_tabbedpane_tabs .TabUnselectedUnselectedSeparator {
+	background:
+		url("img/tabs/tabEdges.png")
+		no-repeat -90px 0px;
+	padding-right: 17px;
+}
+
+.gui_ti_tabbedpane_tabs .TabSelectedRight {
+	background:
+		url("img/tabs/tabEdges.png")
+		no-repeat -42px 0px;
+	padding-right: 13px;
+}
+
+.gui_ti_tabbedpane_tabs .TabUnselectedRight {
+	background:
+		url("img/tabs/tabEdges.png")
+		no-repeat -29px 0px;
+	padding-right: 13px;
+}
+
+.lefttree table.gui_table {
+	border: 0px none;
+	width: 500px;
+	margin: 0px;
+	padding: 0px;
+}
+
+button {
+	padding: 0px;
+}
+
+.Admin,.Statistics {
+	display: block;
+	height: auto;
+	margin-top: 10px;
+}
+
+.Statistics table.gui_table {
+	display: inline;
+	float: left;
+	white-space: nowrap;
+	margin: 2px 10px 0px 10px;
+}
+
+.AdminPage table.gui_table th,.Statistics table.gui_table th,.Documents table.gui_table th
+	{
+	padding: 3px;
+}
+
+.AdminPage table.gui_table thead .gui_table_topaction,.Statistics table.gui_table thead .gui_table_topaction,.Documents table.gui_table thead .gui_table_topaction
+	{
+	display: none;
+}
+
+.AdminPage table.gui_table td,.Statistics table.gui_table td,.Documents table.gui_table td
+	{
+	padding: 0px 10px;
+}
+
+.AdminPage .gui_table_title,.Statistics .gui_table_title,.Documents .gui_table_title
+	{
+	color: #999999;
+	font-size: 10px;
+	background: none;
+	text-align: center;
+}
+
+.AdminPage .gui_table_title td,.Statistics .gui_table_title td,.Documents .gui_table_title td
+	{
+	font-style: normal;
+}
+
+.AdminPage .gui_table_headers,.Statistics .gui_table_headers,.Documents .gui_table_headers
+	{
+	color: #000000;
+	font-size: 12px;
+	background-color: #d0d0d0;
+	text-align: left;
+}
+
+.AdminPage .gui_table_headers th,.Statistics .gui_table_headers th,.Documents .gui_table_headers th
+	{
+	border: none;
+	font-weight: normal;
+}
+
+table.gui_table {
+	border: 0px none;
+}
+
+div.gui_table_cells {
+	background: transparent;
+	white-space: nowrap;
+}
+
+div.gui_table_cells2 {
+	background: transparent;
+	white-space: nowrap;
+}
+
+.TermDescriptionLabel {
+	margin-bottom: 10px;
+	white-space: nowrap;
+}
+
+em.TermLabel {
+	font-style: normal;
+	font-weight: bolder;
+}
+
+.treelabelcountempty {
+	vertical-align: top;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 11px;
+	color: #888888;
+	font-family: Helvetica, Arial, sans-serif;
+	line-height: 14px;
+}
+
+.treelabelcount {
+	vertical-align: top;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 11px;
+	line-height: 14px;
+}
+
+.treelabelbold {
+	font-weight: bold;
+}
+
+.annotatedterm {
+	font-weight: bold;
+}
+
+.keywordterm {
+	font-weight: bold;
+	color: #7D9F17;
+}
+
+.selectedterm {
+	font-weight: bold;
+	color: #DBA400;
+}
+
+.Tooltip {
+	background: white;
+	border: 1px outset;
+	z-index: 105;
+	min-width: 200px;
+	padding: 5px;
+}
+
+.gui_mouseover_v {
+	background: none url(../../../../../../../framework/web/trans_pix.gif)
+		repeat;
+	border: none;
+	min-width: 250px;
+	border: none; /* Opera gets clipping problems */
+}
+
+.gui_tabbedpane_content {
+	background: #FFEECC;
+	min-width: 250px;
+}
+
+img {
+	border: 0px none;
+}
+
+.syncpage {
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	height: 20px;
+	z-index: 10;
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
+}
+
+.expandMore {
+	position: relative;
+	top: -1px;
+	left: 7px;
+	margin-right: 13px;
+	vertical-align: middle;
+}
+
+.collapseMoreParent {
+	position: relative;
+	display: inline;
+	top: 2px;
+	vertical-align: top;
+	font-family: "Arial Unicode MS", Arial, sans-serif;
+	line-height: 14px;
+	font-size: 11px;
+}
+
+.collapseMore {
+	position: absolute;
+	left: -15px;
+	top: 0px;
+	width: 13px;
+	height: 13px;
+	background:
+		url(img/collapseMore.gif)
+		0px 0px no-repeat;
+}
+
+.collapseMore2 {
+	position: absolute;
+	left: -30px;
+	top: 0px;
+	width: 13px;
+	height: 13px;
+	background:
+		url(img/collapseMore.gif)
+		0px 0px no-repeat;
+}
+
+.FormattedText {
+	margin: 5px;
+}
+
+.Documents {
+	position: relative;
+	width: auto;
+	height: auto;
+	display: block;
+}
+
+.DocumentList .gui_list_scroller button {
+	font-size: 11pt;
+	font-weight: bold;
+	color: #848484;
+}
+
+.gui_list_scroller_title {
+	margin-left: 3px;
+	margin-right: 5px;
+}
+
+.gui_table_scroll {
+	background-color: transparent;
+}
+
+.DocumentList .gui_list_scroller .gui_table_scroll_cur {
+	font-size: 9pt;
+	font-weight: bold;
+	color: #000000;
+}
+
+.gui_table_scroll_cur {
+	background-color: transparent;
+	font-weight: bold;
+}
+
+div.gui_list_container {
+	display: block;
+	position: static;
+}
+
+.gui_list,.gui_list_selected {
+	display: block;
+	position: static;
+	padding: 0px;
+	margin: 0px;
+	padding-bottom: 2px;
+	/* use padding instead of margin to show larger selection background, otherwise the 2px are not highlighted */
+}
+
+.DocumentList {
+	position: relative;
+	display: block;
+	margin-bottom: 20px;
+}
+
+.BottomSpacer {
+	height: 10px;
+}
+
+.Document {
+	position: relative;
+	margin: 5px 5px 5px 50px;
+	padding-top: 5px;
+}
+
+.DocumentSeparator {
+	display: block;
+	position: relative;
+	left: 0px;
+	right: 0px;
+	height: 20px; /* see also .SearchResultPage */
+	background: transparent
+		url("img/documentFooterBackground.png")
+		repeat-x 0px 0px;
+	clear: left;
+	/* z-index: -1; /*explain why: this zzdoes not work with FF 3.0.11*/
+}
+
+.QueryDescription {
+	padding-left: 26px;
+	margin-top: 10px;
+	position: relative;
+	height: 30px; /* see also .SearchResultPage */
+	color: #999999;
+	font-size: 12pt;
+	font-weight: bold;
+	letter-spacing: 1px;
+	stack color: #858585;
+	white-space: nowrap;
+}
+
+.QueryDescriptionImg {
+	vertical-align: middle;
+	top: -2px;
+	margin-right: 8px;
+}
+
+.QueryDescriptionSeparator {
+	background: transparent
+		url(img/documentFooterBackground.png)
+		repeat-x 0 0;
+	position: static;
+	height: 20px;
+	margin-left: 22px;
+	margin-top: -10px;
+}
+
+.DocumentContainer {
+	display: block;
+	position: relative;
+	height: auto;
+	margin-left: 5px;
+	margin-right: 20px;
+	height: auto;
+}
+
+.PubMedId,.Title,.Abstract,.Snippet,.Journal,.Affiliation {
+	margin-bottom: 3px;
+	padding-top: 0px;
+}
+
+.Snippet_Key,.Abstract_Key {
+	display: none;
+}
+
+.Key,.WikiLinks .Legend,.Proteins .Legend {
+	font-weight: bold;
+}
+
+a.Value {
+	color: #7f7f7f;
+	text-decoration: underline;
+}
+
+.EmptyValue {
+	font-style: italic;
+}
+
+.Title_Key,.Authors_Key {
+	display: none;
+}
+
+.Mesh_Key,.Affiliation_Key,.Journal_Key {
+	display: inline;
+}
+
+.PubMedId_Key {
+	display: inline;
+	color: #7F7F7F;
+	font-size: 8pt;
+	font-weight: normal;
+}
+
+.PubMedId_Related {
+	margin-left: 5px;
+}
+
+.Mesh_Value,.Affiliation_Value,.Journal_Value,.Wiki_Value,.Authors_Value,.WikiLinks  a,.Proteins a
+	{
+	color: #888888;
+	font-size: 9pt;
+}
+
+.Mesh_Value a,.Affiliation_Value a,.Journal_Value a,.Wiki_Value a,.Authors_Value a
+	{
+	color: #888888;
+	text-decoration: underline;
+}
+
+.Title {
+	font-size: 14pt;
+	padding-left: 0px;
+}
+
+.Abstract {
+	text-align: justify;
+	line-height: 1.7em;
+}
+
+.Snippet {
+	text-align: justify;
+	line-height: 1.7em;
+}
+
+.Journal {
+	background: transparent
+		url("img/documents/iconJournal.png")
+		no-repeat 0px 4px;
+	padding-left: 20px; /*space for small icons*/
+	padding-bottom: 2px;
+	padding-top: 5px;
+}
+
+.Affiliation {
+	background: transparent
+		url("img/documents/iconLocation.png")
+		no-repeat 0px 4px;
+	padding-left: 20px; /*space for small icons*/
+	padding-bottom: 2px;
+	padding-top: 5px;
+}
+
+.Mesh {
+	background: transparent
+		url("img/documents/iconMesh.png")
+		no-repeat 0px 4px;
+	padding-left: 20px; /*space for small icons*/
+	padding-bottom: 2px;
+	padding-top: 5px;
+}
+
+.Authors {
+	background: transparent
+		url("img/documents/iconAuthor.png")
+		no-repeat 0px 10px;
+	padding-left: 20px; /*space for small icons*/
+	padding-bottom: 2px;
+	padding-top: 10px;
+}
+
+.TermDocumentCuration {
+	white-space: nowrap;
+}
+
+.WikiLinks {
+	background: transparent
+		url("img/documents/iconWiki.png")
+		no-repeat;
+	padding-left: 20px; /*space for small icons*/
+	line-height: 21px;
+}
+
+.PubMedId {
+	float: right;
+}
+
+img.treeicon {
+	vertical-align: top;
+	white-space: nowrap;
+	margin-top: 1px;
+	width: 13px;
+	height: 13px;
+}
+
+.treecount {
+	white-space: nowrap;
+}
+
+.treecounter {
+	position: absolute;
+	right: 0px;
+	width: 50px;
+	height: 11px;
+	top: 2px;
+	z-index: -1;
+	background-color: #F8F8F8;
+}
+
+.treecounter2 {
+	height: 11px;
+	background-color: #E0E0E0;
+}
+
+.statisticsCounter {
+	position: relative;
+	width: 150px;
+	height: 11px;
+	top: 3px;
+	background-color: #F8F8F8;
+}
+
+.statisticsCounterValue {
+	position: absolute;
+	top: -2px;
+	left: 0px;
+	text-align: center;
+	right: 0px;
+}
+
+.statisticsCounter2 {
+	height: 11px;
+	background-color: #E0E0E0;
+}
+
+.StartWidget {
+	margin: 20px;
+}
+
+.gui_textinput {
+	width: 100px;
+	vertical-align: top;
+	border: 1px inset #BBBBBB;
+}
+
+.gui_table_open {
+	vertical-align: text-top;
+	margin-top: 3px;
+}
+
+.gui_table_leaf {
+	vertical-align: text-top;
+	margin-top: 2px;
+}
+
+.CurateIcon {
+	margin-top: 3px;
+	vertical-align: text-top;
+}
+
+.CurationDiscussionImg {
+	vertical-align: text-top;
+	border: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.CurationFeature {
+	display: block;
+	position: relative;
+	float: right;
+	margin: 0px 0px 0px 5px;
+	padding: 5px;
+	height: auto;
+	background: white;
+	border-left: 4px solid #fafafa;
+	min-width: 100px;
+	min-height: 80px;
+	max-width: 400px;
+	z-index: 1;
+	/*z-index: 1; used to bring this feature infront of documents div, otherwise the mouse events for subsequent links are not registered in FF */
+}
+
+.CurationSynonymMatch {
+	background-color: #e0e0e0;
+}
+
+.CurationLabelMatch {
+	background-color: #fbfbfb;
+}
+
+.AdvertismentContainer {
+	position: absolute;
+	overflow: auto;
+	top: 0px;
+	bottom: 0px;
+	right: 0px;
+	width: 220px;
+	text-align: center;
+	margin: 5px;
+}
+
+.AdvertismentContainer .gui_tg_title {
+	text-align: center;
+}
+
+.ContentAdvertisment {
+	background: transparent
+		url("img/frameBorderRight.png")
+		repeat-y scroll right top;
+	padding-right: 15px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	right: 230px;
+	bottom: 0px;
+	/*padding-left: 22px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 5px;*/
+}
+
+.Supported .gui_tg_title {
+	width: auto;
+}
+
+.TermTabContent {
+	position: relative;
+	max-height: 400px;
+	overflow: auto;
+	width: 100%;
+}
+
+.Supporters {
+	padding-top: 10px;
+}
+
+.Supporter {
+	margin-top: 28px;
+}
+
+.StartPage {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	overflow: visible;
+	line-height: 100%;
+	vertical-align: middle;
+}
+
+.StartPage .Footer,.Exceptions .Footer {
+	position: absolute;
+	bottom: 10px;
+	width: 100%;
+	text-align: center;
+	line-height: 1.5em;
+}
+
+.StartPage a:hover,.Exceptions a:hover {
+	text-decoration: underline;
+}
+
+.StartPage .FooterEntries,.Exceptions .FooterEntries {
+	white-space: nowrap;
+	margin-top: 10px;
+	font-size: 10px;
+}
+
+.Admin .gui_ti_tabbedpane_content {
+	overflow: auto;
+}
+
+.AdminPage code {
+	background-color: #e0e0e0;
+}
+
+.AdminPage code.ClassNames {
+	background-color: transparent;
+}
+
+.InfoProducerList .gui_table_cells2 {
+	background-color: #efefef;
+}
+
+#querySuggestWindows {
+	z-index: 9;
+}
+
+#allTooltips {
+	z-index: 10;
+}
+
+#breakouts {
+	z-index: 11;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 11px;
+}
+
+#filter19MioArticles {
+	z-index: 20; /* more than #breakout,#allTooltips and #querySuggest */
+}
+
+.MainPageFreePositioner {
+	display: inline;
+	left: 0;
+	top: 0;
+}
+
+.gui_querySuggestWindow {
+	heigth: auto;
+	max-height: 200px;
+	overflow: auto;
+}
+
+.QuerySuggestionEntry {
+	width: 100%;
+	overflow: hidden;
+}
+
+.QuerySuggestionEntryBreakOut {
+	width: auto;
+}
+
+.CurationStoreAdmin .gui_textinput {
+	width: 500px;
+}
+
+.turlyWurly {
+	background: transparent
+		url("../../../../../../../framework/web/waiting.gif") left top;
+	width: 30px;
+	height: 30px;
+}
+
+.yalelink {
+	margin-right: 10px;
+	vertical-align: top;
+}
+
+.AuthorProfile {
+	padding: 20px;
+}
+
+.AuthorNameEntry,.AuthorSenior,.AuthorHighlyCitedEntry,.AuthorURLEntry,.AuthorBiographyEntry
+	{
+	color: #000000;
+	font-weight: normal;
+	line-height: 21px;
+	padding-left: 19px;
+	vertical-align: middle;
+}
+
+.AuthorNameEntry {
+	background: transparent
+		url("img/author.gif")
+		left top no-repeat;
+	display: inline;
+	vertical-align: middle;
+	font-weight: bold;
+}
+
+.AuthorNameEntry a {
+	text-decoration: underline;
+	display: inline;
+	vertical-align: middle;
+}
+
+.AuthorNameEntry img {
+	display: inline;
+	vertical-align: middle;
+}
+
+.AuthorButtons a {
+	padding-left: 10px;
+}
+
+.AuthorHighlyCitedEntry {
+	background: transparent
+		url("img/topDocument.gif")
+		left 1px no-repeat;
+}
+
+.AuthorSenior {
+	background: transparent
+		url("img/topAuthors.gif")
+		left 1px no-repeat;
+}
+
+.AuthorURLEntry {
+	background: transparent
+		url("img/specificDocument.gif")
+		left 1px no-repeat;
+}
+
+.AuthorURLEntry a:hover {
+	text-decoration: underline;
+}
+
+.AuthorLinkIn {
+	display: block;
+	padding-left: 20px;
+	width: 80%;
+	height: auto;
+	background-color: #fbfbfb;
+	border-left: 3px solid #E0E0E0;
+	margin-left: 15px;
+	padding: 2px 5px 5px 5px;
+}
+
+.ExternalLinkInputField input {
+	width: 100%;
+	background-color: #fff;
+	border: 1px solid #dadada;
+}
+
+.AuthorBiographyEntry {
+	background: transparent
+		url("img/world.gif")
+		left 3px no-repeat;
+}
+
+.AuthorProfileArea {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.BiographyEditor {
+	
+}
+
+.ProfileHelpEditing img {
+	vertical-align: text-top;
+}
+
+.BiographyEmailRow input {
+	width: 306px;
+}
+
+.BiographyEditorRow {
+	display: block;
+	white-space: nowrap;
+}
+
+.BiographyEditorYear input {
+	margin: 0;
+	padding: 0;
+	width: 50px;
+}
+
+.BiographyEditorYear {
+	display: inline;
+}
+
+.BiographyEditorLabel {
+	display: inline;
+}
+
+.BiographyEditorLabel .gui_textinput {
+	width: 600px;
+	min-width: 400px;
+}
+
+.AddRemoveButton {
+	display: inline;
+	border: 0px;
+	padding: 0px;
+	margin: 0px;
+}
+
+.BiographyApplyActions input {
+	float: right;
+}
+
+.AuthorContactForm .Error {
+	color: red;
+}
+
+.AuthorContactForm .gui_textinput {
+	width: 500px;
+	min-width: 400px;
+}
+
+.AuthorContactForm .SendButton {
+	text-align: rigth;
+}
+
+.AuthorContactForm td {
+	vertical-align: top;
+}
+
+.ResultFeatures {
+	background: transparent
+		url("img/documentFooterBackground.png")
+		left bottom repeat-x;
+	padding-top: 3px;
+	padding-bottom: 0px;
+	padding-left: 5px;
+	height: 31px;
+}
+
+.ResultFeatures a {
+	padding-right: 3px;
+}
+
+.Statistics h1 {
+	border-bottom: 2px solid #f0f0f0;
+	font-size: 16px;
+	color: #858585;
+	padding: 0px 25px;
+}
+
+.TermInformation {
+	margin: 12px 5px 0px 12px;
+}
+
+.TermInformationKey {
+	font-weight: bold;
+}
+
+.TermInformationKeyImg {
+	vertical-align: middle;
+}
+
+.MultipleTooltipsItem {
+	white-space: nowrap;
+}
+
+.LoginForm .gui_textinput {
+	width: 500px;
+	min-width: 400px;
+	margin-left: 10px;
+}
+
+.LoginForm a {
+	text-decoration: underline;
+}
+
+.LoginButton {
+	text-align: right;
+}
+
+.ClearQueryImage {
+	background: transparent
+		url("img/searchform/clearQuery.png")
+		top left no-repeat;
+	height: 21px;
+	width: 20px;
+}
+
+.ClearQueryImage:hover {
+	background: transparent
+		url("img/searchform/clearQueryHover.png")
+		top left no-repeat;
+	height: 21px;
+	width: 20px;
+}
+
+.HelpEntry {
+	margin-left: 3px;
+}
+
+.Exceptions .Message {
+	margin-left: 3px;
+	margin-top: 3px;
+}
+
+.advStateUnset,.advStateUsed,.advStateRequired,.advStateForbidden,.advStateSelected
+	{
+	vertical-align: top;
+	width: 16px;
+	line-height: 15px;
+	font-size: 11px;
+	padding-left: 16px;
+	overflow: hidden;
+	font-family: "Arial Unicode MS", Arial, sans-serif;
+}
+
+.advStateUnset {
+	background:
+		url(img/unset.png)
+		3px 2px no-repeat;
+}
+
+.advStateUsed {
+	background:
+		url(img/used.png)
+		3px 2px no-repeat;
+}
+
+.advStateRequired {
+	background:
+		url(img/required.png)
+		3px 2px no-repeat;
+}
+
+.advStateForbidden {
+	background:
+		url(img/forbidden.png)
+		3px 2px no-repeat;
+}
+
+.advStateSelected {
+	background:
+		url(img/selected.png)
+		3px 2px no-repeat;
+}
+
+.rootPathOpen {
+	line-height: 15px;
+	font-size: 11px;
+	vertical-align: top;
+	font-family: "Arial Unicode MS", Arial, sans-serif;
+	background:
+		url(img/rootPathOpen.gif)
+		0px 2px no-repeat;
+	width: 13px;
+	padding-left: 13px;
+	overflow: hidden;
+	font-family: "Arial Unicode MS", Arial, sans-serif;
+}
+
+.ontoIcon {
+	vertical-align: top;
+	font-family: "Arial Unicode MS", Arial, sans-serif;
+	line-height: 15px;
+	font-size: 11px;
+	padding-right: 18px;
+	overflow: hidden;
+	background-image: url(img/default.gif);
+	width: 18px;
+	background-repeat: no-repeat;
+	background-position: 2px 1px;
+}
+
+.ontoTermIcon {
+	vertical-align: top;
+	font-family: "Arial Unicode MS", Arial, sans-serif;
+	line-height: 15px;
+	font-size: 11px;
+	padding-right: 16px;
+	overflow: hidden;
+	background-image: url(img/default.gif);
+	width: 13px;
+	background-repeat: no-repeat;
+	background-position: 0px 1px;
+	height: 14px;
+}
+
+.ontoIconmesh {
+	background-image: url(img/mesh.gif);
+}
+
+.ontoIconprotein {
+	background-image: url(img/protein.gif);
+}
+
+.ontoIcongo {
+	background-image: url(img/go.gif);
+}
+
+.ontoIconcell {
+	background-image: url(img/cell.gif);
+}
+
+.ontoIconuser {
+	background-image: url(img/user.gif);
+}
+
+.ontoIcontime {
+	background-image: url(img/time.gif);
+}
+
+.ontoIcongeo {
+	background-image: url(img/geo.gif);
+}
+
+.ontoIconauthor {
+	background-image: url(img/author.gif);
+}
+
+.ontoIconjournal {
+	background-image: url(img/journal.gif);
+}
+
+.ontoIconfilter {
+	background-image:
+		url(img/filter.png)
+		;
+}
+
+.ontoIconEdit {
+	background-image:
+		url(img/edit.png)
+		;
+}
+
+.ontoIconEmptyClipboard {
+	background-image:
+		url(img/emptyClipboard.png)
+		;
+}
+
+.ontoIconFilledClipboard {
+	background-image:
+		url(img/filledClipboard.png)
+		;
+}
+
+.ontoIconQuery {
+	background-image:
+		url(img/query.png)
+		;
+}
+
+.ontoIconTopCategories {
+	background-image:
+		url(img/topCategories.png)
+		;
+}
+
+.ontoIconFavorites {
+	background-image:
+		url(img/favorites.png)
+		;
+}
+
+.ontoIconTopCategories {
+	background-image:
+		url(img/crown.png)
+		;
+}
+
+.ontoIconKeywords {
+	background-image: url(img/keywords.gif);
+}
+
+.ontoIconMore {
+	background-image:
+		url(img/more.gif)
+		;
+	background-position: 3px 1px;
+}
+
+.CurateIconPositiveInactive,.CurateIconPositiveActive,.CurateIconNeutralInactive,.CurateIconNeutralActive,.CurateIconNegativeInactive,.CurateIconNegativeActive,.CurateIconTraining,.CurationDiscussion
+	{
+	text-align: top;
+	font-family: "Arial Unicode MS", Arial, sans-serif;
+	line-height: 14px;
+	font-size: 11px;
+	padding-right: 11px;
+	overflow: hidden;
+	width: 11px;
+	background-repeat: no-repeat;
+	background-position: 0px 2px;
+}
+
+.CurateIconPositiveInactive {
+	background-image:
+		url(../../../../../../../com/transinsight/yggdrasil/curators/positiveInactive.png)
+		;
+}
+
+.CurateIconPositiveActive {
+	background-image:
+		url(../../../../../../../com/transinsight/yggdrasil/curators/positiveActive.png)
+		;
+}
+
+.CurateIconNeutralInactive {
+	background-image:
+		url(../../../../../../../com/transinsight/yggdrasil/curators/neutralInactive.png)
+		;
+}
+
+.CurateIconNeutralActive {
+	background-image:
+		url(../../../../../../../com/transinsight/yggdrasil/curators/neutralActive.png)
+		;
+}
+
+.CurateIconNegativeInactive {
+	background-image:
+		url(../../../../../../../com/transinsight/yggdrasil/curators/negativeInactive.png)
+		;
+}
+
+.CurateIconNegativeActive {
+	background-image:
+		url(../../../../../../../com/transinsight/yggdrasil/curators/negativeActive.png)
+		;
+}
+
+.CurateIconTraining {
+	background-image:
+		url(../../../../../../../com/transinsight/yggdrasil/curators/training.png)
+		;
+}
+
+.CurationDiscussion {
+	margin-left: 0.5em;
+	background-image:
+		url(../../../../../../../com/transinsight/yggdrasil/curators/discussion.png)
+		;
+}
+
+.gui_treeButtonCollapsed {
+	background:
+		url(img/minus.gif)
+		no-repeat right 2px;
+}
+
+.gui_treeButtonExpanded {
+	background:
+		url(img/plus.gif)
+		no-repeat right 2px;
+}
+
+.CuratorSeparator {
+	display: inline;
+	padding-left: 0.5em;
+}
+
+.TimelineEntry {
+	position: absolute;
+	background-color: #E0E0E0;
+	height: 10px;
+}
+
+table.crossvalidation {
+	text-align: right;
+}
+
+table.crossvalidation td {
+	border-left: 1px solid gray;
+}
+
+thead.crossvalidation {
+	background-color: #dadada;
+}
+
+.modeltrainer {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	display: block;
+	overflow: auto;
+}
+
+.modelValidating {
+	vertical-align: text-top;
+}
+
+.DiscoveryTermSelector .gui_textinput {
+	width: 400px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.DiscoveryTermSelector button {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.rightAligned {
+	text-align: right;
+	width: 100%;
+	display: block;
+}
+
+div.EMailDocumentIframe {
+	height: 600px;
+}
+
+iframe.EMailDocument {
+	height: 600px;
+}

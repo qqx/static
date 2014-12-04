@@ -1,0 +1,211 @@
+
+
+/* ==========================================================================
+ @group Lists
+ ========================================================================== */
+.so-list-item {
+    float: left;
+    margin-bottom: 2.135%;
+}
+
+.so-list-onecol .so-list-item {
+    width: 100%;
+    margin-right: 0;
+}
+
+.so-list-twocol .so-list-item {
+    /*width:48.6%;*/
+    width: 47.5%;
+}
+
+.so-list-twocol .so-list-item:nth-child(2n + 2) {
+    clear: right;
+    margin-right: 0;
+}
+
+.so-list-twocol .so-list-item:nth-child(2n + 1) {
+    clear: left;
+}
+.so-list.masonry {
+    width: 98.5%;
+    margin-left: 15px;
+}
+.so-list-twocol.masonry .so-list-item {
+    clear: none;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    opacity: 0;
+    width: 48%;
+    
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    zoom: 1;
+    position:relative;
+}
+
+.so-list-threecol .so-list-item {
+    /*width:31.71%;*/
+    width: 31.65%;
+}
+
+.so-list-threecol .so-list-item:nth-child(3n + 3) {
+    clear: right;
+    margin-right: 0;
+}
+
+.so-list-threecol .so-list-item:nth-child(3n + 1) {
+    clear: left;
+}
+
+.so-list-threecol.masonry .so-list-item {
+    clear: none;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    opacity: 0;
+    width: 31.5%;
+    
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    zoom: 1;
+    position:relative;
+}
+
+.so-list-fourcol .so-list-item {
+    width: 23.39875%;
+}
+
+.so-list-fourcol .so-list-item:nth-child(4n + 4) {
+    clear: right;
+    margin-right: 0;
+}
+
+.so-list-fourcol .so-list-item:nth-child(4n + 1) {
+    clear: left;
+}
+
+.so-list-item.row {
+    clear: right\9;
+    margin-right: 0\9;
+}
+
+.so-list .so-list-art-image {
+    position: relative;
+}
+
+.so-list .so-list-art-image a {
+    display: block;
+}
+
+.so-list-art-image img {
+    height: auto;
+    width: 100%;
+}
+
+.masonry .so-list-item .so-list-art-image img.so-list-art-file {
+    opacity: 0;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    zoom: 1;
+}
+
+.so-list-item .btn span {
+    display: none;
+}
+
+.so-list-item .btn span.show {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+}
+
+
+
+
+
+
+
+
+/* @group Art List
+ ========================================================================== */
+.so-list-item-art {
+    padding: 0px;
+}
+
+.so-list-item-art hr {
+    margin: .5em 0;
+}
+
+.so-list-item-art .so-list-art-meta {
+    padding: 5px 10px;
+}
+
+.so-list-item-art .so-art-actions {
+    display: none;
+    left: 5px;
+    position: absolute;
+    top: 5px;
+}
+
+.so-initiative-participant li {
+    height: 16px;
+    margin-right: 3px;
+}
+
+.so-initiative-participant, .so-initiative-participant li:last-child {
+    margin-right: 0;
+}
+
+.so-list-description {
+    background: #fafafa;
+    border-top: 1px solid #ebebeb;
+    -moz-box-shadow: inset 0px 3px 19px -12px #000000;
+    -webkit-box-shadow: inset 0px 3px 19px -12px #000000;
+    box-shadow: inset 0px 3px 19px -12px #000000;
+    margin: .5em -10px -5px;
+    padding: 10px;
+}
+
+/* @group Thumbnail List
+ ========================================================================== */
+.so-list-item-thumbnail {
+    margin: 0 10px 10px 0;
+    position: relative;
+}
+
+.so-list-threecol .so-list-item-thumbnail {
+    margin-right: 3.8%;
+    margin-bottom: 3.8%;
+    width: 24.2%;
+}
+
+.so-list-threecol .so-list-item-thumbnail:nth-child(3n + 3) {
+    margin-right: 0;
+}
+
+.so-list-item-thumbnail a {
+    display: block;
+}
+
+
+
+
+
+
+
+.so-border {
+    background: #fff;
+    border: 1px solid #ebebeb;
+    padding: 5px;
+}
+
+.so-border:hover {
+    border-color: #d5d5d5;
+}
+
+
+
+.so-shadow {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
+    -moz-box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
+    -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
+}

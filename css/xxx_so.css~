@@ -1,0 +1,121 @@
+
+
+/* ==========================================================================
+ @group Lists
+ ========================================================================== */
+.so-list-item {
+    float: left;
+    margin-right: 2.135%;
+    margin-bottom: 2.135%;
+}
+
+.so-list-onecol .so-list-item {
+    width: 100%;
+    margin-right: 0;
+}
+
+.so-list-twocol .so-list-item {
+    /*width:48.6%;*/
+    width: 47.5%;
+}
+
+.so-list-twocol .so-list-item:nth-child(2n + 2) {
+    clear: right;
+    margin-right: 0;
+}
+
+.so-list-twocol .so-list-item:nth-child(2n + 1) {
+    clear: left;
+}
+.so-list.masonry {
+    width: 98.5%;
+    margin-left: 15px;
+}
+.so-list-twocol.masonry .so-list-item {
+    clear: none;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    opacity: 0;
+    width: 48%;
+    
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    zoom: 1;
+    position:relative;
+}
+
+.so-list-threecol .so-list-item {
+    /*width:31.71%;*/
+    width: 31.65%;
+}
+
+.so-list-threecol .so-list-item:nth-child(3n + 3) {
+    clear: right;
+    margin-right: 0;
+}
+
+.so-list-threecol .so-list-item:nth-child(3n + 1) {
+    clear: left;
+}
+
+.so-list-threecol.masonry .so-list-item {
+    clear: none;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    opacity: 0;
+    width: 31.5%;
+    
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    zoom: 1;
+    position:relative;
+}
+
+.so-list-fourcol .so-list-item {
+    width: 23.39875%;
+}
+
+.so-list-fourcol .so-list-item:nth-child(4n + 4) {
+    clear: right;
+    margin-right: 0;
+}
+
+.so-list-fourcol .so-list-item:nth-child(4n + 1) {
+    clear: left;
+}
+
+.so-list-item.row {
+    clear: right\9;
+    margin-right: 0\9;
+}
+
+.so-list .so-list-art-image {
+    position: relative;
+}
+
+.so-list .so-list-art-image a {
+    display: block;
+}
+
+.so-list-art-image img {
+    height: auto;
+    width: 100%;
+}
+
+.masonry .so-list-item .so-list-art-image img.so-list-art-file {
+    opacity: 0;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    zoom: 1;
+}
+
+.so-list-item .btn span {
+    display: none;
+}
+
+.so-list-item .btn span.show {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+}
+
